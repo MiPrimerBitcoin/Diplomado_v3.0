@@ -1,0 +1,227 @@
+## **Bitcoin realmente consume tanta energía como se cree?**
+
+Para aumentar las ganancias, 
+
+- los mineros conectan una gran cantidad de computadores,
+    - con el objetivo de aumentar sus posibilidades de conseguir bitcoin.
+- Los computadores trabajan casi día y noche para ganarse las loterías,
+    - por lo tanto, el consumo eléctrico es alto..
+- La tecnología que se usa para la minería de Bitcoin se está volviendo cada día más limpia,
+    - tanto que la adopción de energías sostenibles subió al 59,5% en Abril del 2022.
+- Aunque el hashrate de Bitcoin ha crecido un 23% comparado con principios del 2021,
+    - el consumo eléctrico de la minería de BTC es un 25% menor al de aquel entonces.
+- Los ASIC actuales son 100 mil millones de veces más veloces que los CPU’s del 2009.
+- La energía consumida por Bitcoin representa un 0.16% de la energía a nivel mundial.
+
+![28017D39-588D-4158-ADFC-D8C81733C4F3.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3704ffe4-f61f-4d9f-9dc2-a55b9064284b/28017D39-588D-4158-ADFC-D8C81733C4F3.webp)
+
+### Ha evolucionado Bitcoin?
+
+El valor de Bitcoin desde 2009 (primera transacción) ha aumentado enormemente de menos de $ 0,01 a alrededor de $ 67.000 USD, su valor más alto hasta la fecha, alcanzado en noviembre de 2021. En la última década, su precio ha subido y bajado varias veces, y los factores que afectan la oferta y demanda también han cambiado y se han diversificado mucho.
+
+Tres preguntas:
+
+- **¿Por qué es valioso bitcoin?**
+- **¿Por qué ha subido tanto el precio?**
+- **¿Por qué es tan volátil?**
+
+Para entender mejor esto, aquí hay algunos términos importantes que debemos definir:
+
+1. **Oferta circulante**: es la mejor aproximación del número de unidades que están circulando en el mercado y en manos del público en general. Para Bitcoin, el suministro circulante es igual a la cantidad de bitcoin creados hasta el momento.
+1. **Suministro total**: refleja la cantidad total de monedas que ya se han creado o extraído. En el caso de Bitcoin, la cantidad máxima que se puede crear está limitada a 21 millones, aunque se estima que faltan o se consideran "perdidos" alrededor de 4 millones de bitcoin. 
+1. **Capitalización de mercado**: El valor de mercado total del suministro circulante de Bitcoin reflejado en monedas fiat (dólares). Esto se estima multiplicando el precio actual por la oferta circulante.
+    1. **Capitalización de mercado = precio actual x oferta circulante.**
+
+Podemos ir a *m[arketcap](https://coinmarketcap.com/currencies/bitcoin/) y* calcular la capitalización de mercado actual.
+
+El siguiente gráfico muestra el precio de Bitcoin en los últimos 5 años. Esta es una manera fácil de visualizar qué tan sensible o volátil es el precio. Usando el eje X para el tiempo, ¿qué eventos mundiales importantes podrían relacionarse con los cambios de precios? ****
+
+[https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR](https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR)
+
+**Entonces, ¿qué factores determinan su precio? ¿Cómo se involucra la minería? ¿Cuándo afecta el halving al precio?**
+
+Hay factores simples y complejos que afectan significativamente el precio de bitcoin. Una cosa que se puede decir con certeza es que desde su creación, el precio de bitcoin se ha movido hacia arriba y hacia la derecha en función de la oferta fija y la demanda creciente. Los factores que afectan cómo se mueve el precio se pueden analizar a mediano y largo plazo.
+
+**Factores a mediano plazo:**
+
+- **Comercio diario**: Bitcoin, como muchas otras criptomonedas, se puede comprar y vender a través de múltiples plataformas de intercambio que, a diferencia de los bancos y las bolsas de valores, operan 24 horas al día, los 7 días de la semana. Estas plataformas de intercambio pueden operar en dispositivos móviles, lo que permite intercambiar fácilmente desde unos pocos dólares hasta cientos de miles de dólares en bitcoin. Para un activo que no tiene reguladores o autoridades, y una oferta fija y demanda creciente, se espera la volatilidad en su precio. Para HODLERS esto es una pesadilla ya que el precio puede cambiar hasta un 20% en un solo día. Para traders, esta es una oportunidad para aprovechar estos cambios de precios y obtener ganancias.
+- **Noticias y eventos mundiales**: como muchos otros mercados, el precio de Bitcoin también puede cambiar en conjunto con eventos mundiales, noticias y especulaciones.
+- **Costos de minería**: Como sabemos, los mineros son los responsables de agregar más y más bitcoin al suministro total. Debido a los costos de electricidad, los mineros generalmente se ven obligados a vender entre el 40 % y 60% de los bitcoin extraídos para cubrir las facturas y los gastos de hardware.
+- **Burbujas de mercado**: en los últimos años, los compradores de bitcoins son cada vez más diversos y sus hábitos de compra y ahorro varían. El tamaño de su participación en Bitcoin y su comportamiento hacia él puede cambiar el precio general de Bitcoin.
+
+![D9CF762B-FDC1-417F-8981-5B67DABC6421.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4f2bce5-12aa-4204-8263-869c5676bd1d/D9CF762B-FDC1-417F-8981-5B67DABC6421.png)
+
+**Factores a largo plazo:**
+
+- **Halving**: La recompensa de bitcoin es reducida a la mitad cada 210.000 bloques, o alrededor de cada 4 años.
+- **Adopción masiva**: (si todo el mundo lo usa y luego, por extensión, pone más de su dinero en bitcoin, el precio subirá exponencialmente. El momento en que todo el mundo empieza a usar Bitcoin se llama *Hiperbitcoinización.*)
+- **Oferta limitada**: el hecho de que solo haya una cantidad finita de Bitcoin significa que no es posible diluir el sistema después de 2140. (Mientras tanto, con la adición de nuevos bitcoin al sistema todos los días para sumar 21 millones, es técnicamente inflacionario, aunque en un calendario claro y consistente, para que los nuevos participantes puedan unirse al sistema. Si los 21 millones se hubieran liberado a la vez, es posible que unas pocas personas lo hayan acaparado, sin dar a nadie más la oportunidad para acumularlo).
+
+El siguiente gráfico se llama “gráfico arcoíris” y usa una escala logarítmica para visualizar el comportamiento del precio. El arcoíris, con la división de colores, muestra cuándo la moneda está sobrevendida (zonas azul y verde) o sobrecomprada (zonas naranja, roja y morada). Podemos obtener con este gráfico el momento adecuado para comprar o vender bitcoin. Cuando bitcoin está en las zonas azul/verde puede ser el momento apropiado para comprarlo. 
+
+[https://lh5.googleusercontent.com/Ffya4yg3OoApiYHNMMz2b0Hv6F3Hgwyw7B-h0ZMSg_O1GA2Z4wmlhLNjsEffbQECWu0OYSv5yKUT2xsPi2WRI2o_sReRaqXBmByFM0GKPr2uHi7xevcdro0BOnqaf4yXGsdWXNud](https://lh5.googleusercontent.com/Ffya4yg3OoApiYHNMMz2b0Hv6F3Hgwyw7B-h0ZMSg_O1GA2Z4wmlhLNjsEffbQECWu0OYSv5yKUT2xsPi2WRI2o_sReRaqXBmByFM0GKPr2uHi7xevcdro0BOnqaf4yXGsdWXNud)
+
+Bitcoin ha evolucionado por consenso,
+
+- volviéndolo más seguro y eficiente con los años.
+- Primero,  **SegWit**, un soft fork  que se implementó en el 2017,
+    - aumentó el límite de tamaño de los bloques eliminando partes de las transacciones.
+    - Mejoró  la velocidad de procesamiento de las transacciones de Bitcoin.
+    - Arregló  un punto débil del protocolo que permitía a los nodos:
+        - manipular los problemas de maleabilidad de las transacciones (TXID) en la red.
+            - La ***maleabilidad*** de una transacción es cuando un atacante puede modificar o alterar el hash de una transacción dentro del blockchain.
+- Segundo, **Taproot**  se creó para mejorar la privacidad y aumentar el anonimato en la red.
+    - Taproot, puede "camuflar" sus transacciones.
+- La sustitución de las firmas Schnorr por la actual **firma digital de curva elíptica (**ECDSA).
+    - Permitirá  simplificar los contratos inteligentes en la blockchain.
+    - Ayudará a escalar los canales de pago de segunda capa, como la Lightning Network.
+
+## Capitalización de Bitcoin
+
+![FF05B667-8B5A-4173-A9B7-44FB30C1D68D.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2c5908c5-f200-4db5-8740-8451c0c7b478/FF05B667-8B5A-4173-A9B7-44FB30C1D68D.jpeg)
+
+ 
+
+### **“Lightning Network” :**
+
+## **Cuál es la diferencia entre la Capa 1  o Capas Base y la Capa 2?**
+
+- **Bitcoin** es revolucionario ya que es  la ***capa base*** del internet descentralizado, pero,
+    - tiene un problema fundamental de escalabilidad.
+    - Las transacciones de Bitcoin pueden ser lentas y caras.
+        - Se argumenta que bitcoin no se puede usar como medio de intercambio
+            - por ser lento y caro en micro pagos.
+                - Existen transacciones de US$1 o US$2 que terminan costando más de US$50 cuando se usa la red principal.
+                - Visa puede procesar hasta 65.000 transacciones por segundo, mientras que la red Bitcoin solo puede manejar 7 transacciones por segundo.
+- Ahí es donde la magia de las *soluciones de **capa dos*,** como **Lightning**, han venido al rescate.
+- **Lightning**, es un conjunto de reglas (contratos inteligentes), construido encima de Bitcoin,
+    - que permite transacciones instantáneas,
+    - de alto volumen y
+    - desconectadas de la red principal.
+    - No es necesario registrar todas las transacciones en la red,
+    - sino en una red alterna más eficiente.
+    - Brinda toda la seguridad de Bitcoin sin inconvenientes.
+    - Ofrece más privacidad.
+    - Lightning aborda los problemas de escalabilidad de Bitcoin.
+
+![C9B5B8D1-B123-44EC-A8EB-6A6469716195.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/868d60ee-10c8-4057-92c4-d339c2feb8f3/C9B5B8D1-B123-44EC-A8EB-6A6469716195.jpeg)
+
+![020D5B6F-9585-4342-BB90-980201F80E5D.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59d749c0-f996-4a29-a3e5-8812a8fb3030/020D5B6F-9585-4342-BB90-980201F80E5D.jpeg)
+
+**Analogía: (Cada paso, del 1-5, corresponde a un paso similar en la red Lightning)**
+
+1. Para poder reservar una habitación en un hotel, es necesario anticipar un depósito. 
+    - El día de su llegada, un huésped puede utilizar la misma tarjeta de crédito,
+        - ya que debe dejar una cuenta abierta para cubrir los cargos de habitación y tarifas imprevistas de su  estadía.
+2. Es más eficiente y menos costoso que cargar la tarjeta cada vez que incurre en un gasto.
+3. El hotel lleva un registro de todos los gastos durante su estadía. 
+- Existe una farmacia y una peluquería independientes dentro del hotel
+1. El huésped compra productos, usa servicios y firma la deuda a su habitación.
+    - El hotel cobra una comisión por intermediar el pago entre el huésped y el negocio.
+2. La tarjeta sólo se carga después de la estadía 
+    - cuando el huésped haya verificado que los cargos y el saldo sean correctos.
+
+**Lightning Network** funciona de manera similar. 
+
+1. En lugar de anticipar un depósito y dejar una cuenta abierta,
+    - dos nodos pueden abrir un **canal de pago, o** una ruta de transferencia
+2. Las partes pueden realizar tantas transacciones  veces como lo deseen.
+3. Mantiene su saldo siempre actualizado 
+    - siempre y cuando las dos partes aprueben cada transacción con una firma.
+4. Si la conexión es a través de un tercero (un puente), 
+    - se debe pagar un peaje por pasar
+5. Cuando cualquiera de las partes decide cerrar el canal, 
+    - puede transmitir unilateralmente la última transacción a la red Bitcoin.
+
+- Cuanto más grande un canal,
+    - mayor la cantidad de bitcoin que se puede transferir en ambas direcciones
+- Se puede construir rutas con todos aquellos con los que se hacen transacciones.
+- Cuantos más canales,
+    - más conexiones y mejores atajos para llegar a ciertos destinos.
+- Si existe una ruta directa,
+    - todo es sencillo y se hace una transaccion segun el tamaño del canal.
+- Para abrir un canal nuevo, ambos nodos pagan un fee pequeño a los mineros
+    - No se necesita actualizar y verificar cada transacción en la red,
+        - Esto sería costoso y tomaría mucho tiempo.
+    - Por el contrario, se aprueba cada movimiento con ambas firmas digitales
+
+Una visualización:
+
+[https://lnrouter.app/graph/zero-base-fee](https://lnrouter.app/graph/zero-base-fee)
+
+- Si A tiene un canal abierto con B y B tiene un canal abierto con C, A puede enviar BTC a C a través de B sin necesidad de confiar o conocer a B.
+
+![C131F0B2-C21A-4781-B9FB-B130227C8219.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cf7a6a3-9e2a-48a5-b1e9-9072c8cccd6d/C131F0B2-C21A-4781-B9FB-B130227C8219.jpeg)
+
+Actividad: Miremos un simulador.
+
+[https://www.robtex.com/lnemulator.html?conf=A5-5B,B5-5C&send=A2C](https://www.robtex.com/lnemulator.html?conf=A5-5B,B5-5C&send=A2C)
+
+- El uso de Lightning es tan barato y rápido como el envío de un correo electrónico.
+    - Con el beneficio adicional de la seguridad de la blockchain.
+    - Ofrece mayor privacidad
+        - Sólo las dos personas que mantienen dinero en un canal abierto saben
+            - cuánto, qué tan a menudo y cuándo se mueve ese dinero.
+
+![98FEF856-2723-4CAC-B806-6DAB0F7D1707.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/274ab51e-c5f8-445e-9625-e2638e52a44a/98FEF856-2723-4CAC-B806-6DAB0F7D1707.png)
+
+- En comparación, si se hacen 3 transacciones “en cadena”, es decir,
+    - se quedan en la  capa base,
+        - hubieran sido mucho más lentas y caras.
+- Cada una de estas transacciones tendría que involucrar a todos los participantes de la red
+    - Hubiera requerido cifrar, descifrar, firmar y verificar.
+    - Se podría visualizar de la siguiente manera:
+    
+    ![F1D5664C-A12F-469C-A62D-E2DC3AA151F5.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab906db8-b04a-4689-b9ab-2011338fb5fc/F1D5664C-A12F-469C-A62D-E2DC3AA151F5.jpeg)
+    
+
+# **Innovación** hasta el 2022
+
+- Con el nuevo protocolo **Taro** se aspira llevar la tecnología Bitcoin a otro nivel..
+- Permitirá la emisión de monedas estables en la red Lightning.
+- Se podrá intercambiar cualquier divisa por otra instantáneamente, prácticamente gratis.
+
+### Bitcoin y el futuro de El Salvador
+
+![52EBE19E-9936-4541-B11C-C9E72B4586F1.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40fd826b-360b-4817-b8f3-41e92ddfe059/52EBE19E-9936-4541-B11C-C9E72B4586F1.jpeg)
+
+La originalidad y posibilidad de Bitcoin ha captado no sólo la atención de los que están en el mundo de la inversión, sino también de los que están en el mundo corporativo. Tanto las empresas públicas como las privadas están mirando a Bitcoin como una forma de reforzar sus balances. Debido a que estas poseen grandes reservas de efectivo y están sujetas a los mismos impactos de la inflación y la supresión de intereses a los que estamos expuestos los ahorradores, lo están adaptando como reserva de valor a largo plazo. Es probable que El Salvador tenga una ventaja gigante frente al mundo en un futuro. 
+
+- El Salvador se ha convertido en el primer país en hacer Bitcoin moneda de curso legal en paralelo con el dólar estadounidense.
+    - El FMI y el Banco Mundial se han pronunciado en contra de esta decisión; mientras tanto, El Salvador sigue acumulando satoshis.
+    - Esta decisión ha iniciado una carrera : ¿Quién será el próximo en hacer Bitcoin moneda de curso legal? Los países que se espera que se beneficien más de Bitcoin serán aquellos que fomenten la adopción cuanto antes, como ha hecho El Salvador.
+    - Bitcoin Beach ya es un proyecto robusto, que ha logrado crear una economía circular dentro de una comunidad costera.
+    - El dólar estadounidense parece estar al borde del colapso, con el rublo (Rusia) y el yuan (China) tomando un papel más importante en la geopolítica. Ambas, por supuesto, son monedas fiduciarias, compitiendo contra Bitcoin.
+        - Varios países están tratando de implementar **monedas digitales del banco central** (CBDC por sus siglas en ingles): estos son intentos de crear monedas fiduciarias que incluyan el beneficio de ser digitales, lo que también significa que el gobierno puede vigilar cada transacción.
+    - ¿Quién está comprando Bitcoin? Las noticias están cambiando muy rápido.
+        - Rusia está dispuesta a aceptar petróleo y gas en Bitcoin
+        - Rio De Janiero está dispuesto a aceptar impuestos inmobiliarios en Bitcoin
+        - Algunas ciudades de EE. UU. están dispuestas a aceptar impuestos en Bitcoin, y algunos funcionarios gubernamentales aceptan sus salarios en Bitcoin.
+        - Y más.
+    - ¿Cuál es la posición de El Salvador en esto?
+        - Se destaca por ser una nación en camino a la prosperidad al atraer a todos sus no-bancarizados a la inclusión financiera.
+        - Cada Salvadoreño que compre Bitcoin para guardar ahorros sera menos impactado por la inflación masiva que sufre el dolar estadounidense.
+        - Una **preferencia temporal** menor significa que los salvadoreños realmente construirán una riqueza generacional.
+        - Encaminar a la modernización del rubro energético en El Salvador, integrando mas eficientemente las ciudades con la naturaleza.
+        - El Salvador puede convertirse en un centro tecnológico mundial para Bitcoin, como lo fue Silicon Valley para California + Estados Unidos, abriendo la puerta para atraer a personas que desean una nación soberana y libre.
+    - Bitcoin permitirá a las personas innovar masivamente en soluciones de Nivel 2, así como modernizar contratos, activos y credenciales en el ámbito privado y publico.
+    - Bitcoin alentará a los países a cooperar en lugar de competir; debido a que ya no existe el deseo de manipular las economías de otros países mediante la impresión de dinero o la creación de una moneda que se convierta en la reserva global que otros tienen que adoptar.
+    - Incluso puede ser que los países y estados-nación ya no existan, y algo nuevo los remplace, con la ayuda de bitcoin... ¿Quién sabe?
+    - Preguntas:
+        - ¿Cuáles crees que son los beneficios de Bitcoin?
+        - ¿Qué imagina que podría pasar en El Salvador en los próximos diez años?
+        - ¿Cree que los Salvadoreños se familiarizarán más con Bitcoin y lo encontrarán una tecnología esencial?
+
+> "Tanto si crees que puedes hacerlo, como si no, en los dos casos tienes razón"  Henry Ford
+> 
+
+# **Clase #10**
+
+### Entrega de Proyecto Final y Evaluaciones
+
+**"¿Por qué Bitcoin?"**
+Escriba un ensayo de 1 a 2 páginas y asegúrese de cubrir los siguientes puntos:
+
+- Explicar qué es Bitcoin
+- Explicar cómo funciona Bitcoin
+- En su opinión, ¿Cuáles son al menos dos formas en que Bitcoin cambia la forma en que opera el mundo hoy? Justifique su respuesta
