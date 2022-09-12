@@ -1,0 +1,80 @@
+Everything bolded is new (hasn’t been written yet
+
+**Class 3, Introduction to Bitcoin**
+
+- **Definitions**
+    - 
+        
+        ![A90264C6-652D-42BA-B2C2-6E79B6D0EDDA.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ce45123-5510-4c97-b421-49f5345475a1/A90264C6-652D-42BA-B2C2-6E79B6D0EDDA.png)
+        
+    - Bitcoin vs. bitcoin: **Bitcoin** with a ‘B’, refers to a network of computers, all running the same program, whereas **bitcoin** with a ‘b’ refers to the cryptocurrency on which the program runs on.
+    - More Definitions:
+        - **Bitcoin Node:** *any computer that runs a Bitcoin implementation (software) and stores the entire blockchain.*
+        - **Miner:** *A computer, or series of computers, that perform an energy-intensive process, competing to solve mathematical puzzles to receive bitcoin, and in so doing, verify transactions for the network.*
+    - Some differences between Bitcoin and traditional currencies are illustrated in the table below.
+        
+        [Bitcoin vs Traditional Currencies](https://www.notion.so/b17454774b364db4a5d4cf82fe900748)
+        
+
+**Let’s follow a Bitcoin from start to finish! (This is the overview, which lets students see the whole system before they get into the details of every part of the network.)**
+
+- We need to distinguish between Bitcoin as an asset, and Bitcoin as a network.
+    - As an asset:
+        - There’s only 21 million of it.
+        - It’s (very) hard to steal/confiscate.
+        - (etc)
+    - As a network:
+        - It innovates within the energy space;
+        - It prevents 51% attacks, and from any one entity having control;
+        - (etc)
+
+In this section, we see the Bitcoin network!
+
+**Seeing Bitcoin by following a single transaction.**
+
+![94ABE95E-B463-46C9-A03E-5CB5A77BBA5E.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e987cebb-1bd8-42c3-9368-51aae2b86889/94ABE95E-B463-46C9-A03E-5CB5A77BBA5E.png)
+
+^ this is a great model.
+
+**Start with:**
+
+- **From the wallet**
+    - Give the overview of what a wallet is, a piece of software that lets you use your keys to access your coins, and then to be able to send them to whomever you like
+    - Explain what a “key” is, what a “public address” is, and the fact that the key is used to “sign off” on the transaction so it can be sent. (and without this key, that is impossible to do)
+    - The basics of what a wallet looks like, how simple it is, how easy to send.
+    - Then, once you send it...
+- **To the node**
+    - A node is a program on a computer (any decent computer!) that has a copy of the blockchain. It talks with other nodes to verify that the blockchain is up-to-date, and that they’ve got the right blockchain on file. (hugely oversimplifying here, obviously.)
+    - Once the transaction arrives to a bunch of nodes, they all say, “this is a real transaction”, and then send it, along with thousands of other transactions, to the mempool.
+- **Sitting in the mempool**
+    - The mempool is a place where transactions live for a while! This is because sometimes, there are SO many transactions happening that the block size (1 MB) can’t fit them all in one transaction. So the ones that have lower fees will stay in the mempool for longer, and the ones with higher fees will be taken in by the miner sooner. In this example, our transaction has a high fee, so it’s picked up quickly. **(obviously a lot more to say here, but this is an example. Worth seeing how deep we can go, and how much to put on the teacher’s guide for this section. There are a lot of places we can take even this little paragraph.)**
+- **To the miners**
+    - The miners are also computers, except they’re running a program that is basically the equivalent of throwing a dice many many MANY times to get the right number (and it’s a really hard number to find). They do this so that they can verify these transactions, and prevent counterfeiting (the double-spending problem). The program they run moderates the difficulty according to how much power (hash rate) is on the network, so that a block is completed every ten minutes or so. The miners are doing this to get the fees, and then every time a block is completed, they get bitcoin in return. The number of bitcoin they get gets halved every four years. (etc.) Our transaction is finished within just a few minutes. Then, once the miners verify these transactions, they send the new block back to the nodes.
+- **back to the nodes**
+    - The nodes have heard from the miners that the transactions are legitimate. So now they update their copies of the blockchain to include our transaction!
+- **into the blockchain**
+    - Woot!
+- **seen on both wallets**
+    - And then once that’s done, the new wallet now has the bitcoin that was sent, and the wallet that sent the bitcoin now officially no longer has it, and the record of that transaction is recorded for all to see (pseudonymously).
+- **Also, lightning!**
+    - Lightning is instant because it happens off-chain! We’ll go into this more later, but just know that there’s a network built “on top of” Bitcoin that allows us to send bitcoin that avoids the process we just described above.
+
+Btc as asset vs btc as network
+
+Class #4: Nodes + mempools
+
+Class #5: Miners + mining + **the Byzantine Generals problem**
+
+Class #6: Wallets + the Lightning network 
+
+Class #7: Double spending, network security, 51% attacks
+
+Class #8: Bitcoin halving, bitcoin value through time, reviewing a deflationary money that can’t “safely” be used for fractional reserve banking, how it simplifies things, **how mining innovates energy**, the fact that **criminals really don’t use bitcoin lol**
+
+Class #9: Future of BTC, including **a future even beyond lightning** (which we haven’t discussed yet).
+
+---
+
+Then we work on the teacher’s guide/workbook — basically we put in the stuff that we’d otherwise consider optional as highlighted, to distinguish from the regular student section — a deeper history of Satoshi and events such as Mt. Gox, the math behind mining and hash rates, and clarification to questions we might expect the kids to ask (this piece will always get added on to), some of the deep maths such as merkle roots (in the event a whiz kid wants to know more) and the more technical parts of cryptography.
+
+Also need some typical answers for all the things students might be expected to put in to the “answer here” sections.o
