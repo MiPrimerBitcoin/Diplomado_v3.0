@@ -1,0 +1,305 @@
+### **La Criptografía y La Minería**
+
+Antes de explicar en detalle la elegancia de la minería, repasemos un poco de álgebra y raspemos la superficie de la criptografía. 
+
+## Funciones Hash
+
+- Todas las transacciones o bloques tienen por lo menos un renglón lleno de letras en mayúscula y números, muuuuuuuuuuyyyy largo.
+- Son identificadores de datos que contienen un mundo de información.
+    - Generalmente consisten de 64 dígitos. Ejemplo:
+        
+        619010e5ab4877ef398e82a277e7134529a5ff1875f7671ff0177c7ab0302423
+        
+        - Si en vez de nombre, apellido y fecha de nacimiento, nos identificáramos con un número así, no habría el problema de tener dos “María” o dos “José” en clase.
+        
+
+Como medida de protección, el software de Bitcoin desglosa, oculta, asegura y verifica toda información compartida, a través de una  función matemática llamada  **hash** (**SHA256)**  
+
+- Que es un hash (SHA256)? **¿**Cómo se usa esta función hash? ¿Qué la hace tan especial?
+
+*Qué es una función?*   
+
+- Es como una máquina transformadora:
+    - se introduce algo, se modifica mediante unas reglas estrictas,  y surge otra completamente diferente.  Es decir:
+    - Se suministra el dato de entrada, **x**, o los datos que uno ingresa,
+    - Se le aplican operaciones matemáticas (suma, resta, multiplicación, etc.) predefinidas,
+    - El resultado es una *salida*, **f(x),y.**
+
+![66ADABCB-38D9-4505-BD7A-84A97EEE4D47.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d43be600-16db-4ef1-8674-7484ac5918a7/66ADABCB-38D9-4505-BD7A-84A97EEE4D47.jpeg)
+
+Ejemplo:  f(x)=3x+4 me dice: 
+
+- multiplique el dato de entrada (x) por 3, súmele 4 y obtenga la *salida* f(x), o y.
+- Cual sería la respuesta de f(2)? Es decir, cual es el resultado de y cuando x=2?
+- Ahora, cual es la pregunta aquí?  f(x)=15. Buscamos encontrar la entrada o la salida? Es posible encontrar el valor? Veamos….          f(x)=3x+4=15.      3x+4=15….        x=?
+
+Algunas funciones son unidireccionales. 
+
+- Tienen la propiedad de ser fáciles de calcular pero difíciles de invertir.
+- Aunque sepamos el resultado, no podremos *descifrar* los datos de *entrada*.
+
+Si odias las matemáticas, vamos a formular una analogía que te ayudará  a entender. 
+
+Vamos a hacer un jugo de frutas rojas. 
+
+- Estos son los datos de *entrada:*
+    - La receta requiere 1 taza de agua, 3 cubos de hielo, 18  frambuesas, 8 fresas, 15 taza de moras y 1/5 de taza de azúcar.
+- La *operación de la función:*
+    - Lo mezclamos todo junto en la licuadora .
+- Dato de *salida:*
+    - Resulta un jugo delicioso.
+
+Es casi imposible que otra persona descifre exactamente cuales son sus ingredientes exactos.
+
+- Esto es lo que significa una función unidireccional.
+- El jugo no se puede convertir de nuevo en sus ingredientes.
+
+***Que es un hash? Que***
+
+**Bitcoin** usa criptografía-una rama de matemáticas
+
+- Su proceso de entradas y salidas es exactamente el mismo.
+- Una función hash criptográfica:
+    - toma cualquier cantidad de datos, los codifica y produce una huella digital única.
+
+![DBDB2CA5-BD9E-4B07-B1D1-C2459A3FCA61.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/96968a95-8cd9-413d-87b0-350dc5e8c457/DBDB2CA5-BD9E-4B07-B1D1-C2459A3FCA61.png)
+
+Lo sorprendente de las funciones hash es que: 
+
+- No existen restricciones en los datos de entrada,
+    - el *hash* siempre resulta en la misma longitud de caracteres
+    - 
+
+***Qué es SHA 256?***
+
+- La función hash particular que usa Bitcoin se llama SHA256.
+- Se escribe normalmente en sistema hexadecimal (números entre 0 y 9 y letras entre A y F).
+
+Vamos a crear **hashes**. Veamos los siguientes ejemplos:  
+
+SHA256(Dalia)=
+
+bbadb37bc80b041a1cafdfadf1efd93d6386117b33046d650e75ec2cb101758c 
+
+SHA256(DaliaP)=
+
+25cad1ff3deb7bc5ba54ccf1f0fe8e8ff4a17f58826847b8cae2ddbd6cd6ab77
+
+SHA256(Hola, me llamo Dalia. Soy de Medellín, Colombia.)=
+
+619010e5ab4877ef398e82a277e7134529a5ff1875f7671ff0177c7ab0302423
+
+Actividad:
+
+Cómo crear un hash? En los siguientes sitio web podremos practicarlo:
+
+ [https://hashgenerator.de/](https://hashgenerator.de/) 
+
+[https://emn178.github.io/online-tools/sha256.html](https://emn178.github.io/online-tools/sha256.html)
+
+Primero, qué pasa cuando ingresas el hash 256 de Dalia? Compáralo con el que está escrito aquí. 
+
+Te das cuenta que aunque el resultado es aleatorio, el resultado de una entrada en particular siempre será el mismo. 
+
+Cual es el hash de tu nombre? Tu nombre y apellido? 
+
+Qué pasa si cambias una letra a tu nombre? Hubieras podido predecir este hash?
+
+## 
+
+# Los Mineros y l**a Minería de Bitcoin**
+
+Los **nodos completos** comprueban que las criptomonedas que se están enviando no han sido utilizadas en otro pago anteriormente. Sus funciones principales son:
+
+- Evitar el doble gasto
+- Legitimizar transacciones y bloques.
+- Pueden funcionar como puntos de paso con copias de la blockchain completa o podada.
+
+Pero quien lleva el registro de las transacciones?
+
+ Los **nodos** **mineros** proporcionan el hardware de minería especializado necesario con el fin de recopilar, crear nuevos bloques y cargar nuevas transacciones en ellos.
+
+- Un minero siempre ejecuta un nodo completo
+    - para seleccionar transacciones válidas para formar un nuevo bloque.
+- Resuelve rompecabezas criptográficos en un proceso denominado "minería".
+    - Compite por crear nuevos bloques en la blockchain y
+    - demostrar que es el que ha realizado el trabajo requerido
+        - (de ahí el nombre "**prueba de trabajo**", en inglés proof-of-work).
+
+![598F36C8-B093-4784-9041-183D8B28AA86.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/087aedd0-25d6-4ad7-91b7-22d158802570/598F36C8-B093-4784-9041-183D8B28AA86.jpeg)
+
+De nuevo volvamos a una analogía: 
+
+- Cada minero tiene un dado especial que tiene marcados los números 1 hasta el 1000, es decir, tiene 1000 caras.
+- Los mineros se alistan para entrar a una competencia, con el incentivo de ganar un poco más de  6.25 bitcoin en los próximos 10 minutos.,
+- Bitcoin escoge un número objetivo  del 1-1000 y lo publica para que todos lo vean en la red. Digamos que escoge el #8. Empieza la competencia.
+- El objetivo es caer en un número  menor a 8.
+    - Algunos mineros tienen ventajas y una probabilidad mayor de ganar: Porqué?
+        - Tienen más poder adquisitivo y han comprado más de un dado.
+        - Otros lanzan a una velocidad mayor que otros.
+- Comienza la competencia:
+    - Los mineros empiezan a lanzar su dado cientos de veces pero esto requiere de mucho trabajo. Se les cansa la mano.
+    - Un minero afortunado alza la mano y dice “gane!”.
+    - Todos los otros mineros paran de lanzar sus dados y miran la mesa en la que están jugando.
+    - De esta manera, todos pueden verificar si está diciendo la verdad.
+    - Si la mayoría, por consenso está de acuerdo que el minero es el ganador, se le da su recompensa.
+    - Comienzan de nuevo.
+- Si entran más mineros a la próxima competencia, Bitcoin reduce el número objetivo de modo que siempre se demore aproximadamente 10 minutos para que alguien gane.
+
+Ahora volvamos al proceso de Bitcoin:
+
+- Los mineros tienen libertad de escoger transacciones para incluir en su próximo bloque.
+- Buscan en su Mempool
+    - seleccionan y agrupar nuevas transacciones verificadas a un nuevo “bloque candidato”
+
+![D9957296-0E03-47C7-A50F-5E43215138B1.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cfbaf000-03fb-4843-8a3e-07f54f9e335a/D9957296-0E03-47C7-A50F-5E43215138B1.webp)
+
+C*uales transacciones escoger para su “bloque candidato”?*
+
+- Eligen aquellas con mayores incentivos monetarios y que ocupen menos memoria.
+    - Las transacciones agregan comisiones (o propinas)
+        - De esta manera, los mineros están motivados a trabajar honradamente.
+- Durante mucho tráfico, los mineros eligen transacciones que tienen comisiones más altas.
+    - Una vez el tráfico haya disminuido-se agregan aquellas con menores incentivos.
+- Entre más transacciones hayan en la mempool, más congestionada la red.
+    - Los incentivos monetarios generalmente son mayores cuando hay mucho tráfico
+
+*En qué consiste cada bloque candidato?*
+
+- El tamaño de un bloque es de aproximadamente 4 MB
+- Cada bloque sólo puede contener unas pocas miles de transacciones como máximo,
+    - por lo tanto, es importante elegir eficientemente
+- Incluye un encabezado de bloque
+    - El **encabezado** contiene:
+        - el resumen de los datos dentro del bloque,
+        - junto con una referencia a el bloque más reciente existente en la blockchain y
+        - un nonce ("número que sólo es usado una vez"). En inglés: “number used once”
+- Este encabezado de bloque se somete a la función hash SHA256;
+
+*Para qué se usa este hash* ?
+
+- El objetivo es producir un hash válido para el siguiente bloque,
+    - el cual será deberá ser por debajo de un “valor objetivo” específico.
+        - Si el número resultante es mayor que el hash deseado,
+            - el minero ajusta el **nonce** y vuelve a intentarlo.
+    - Los mineros hacen esto varios miles de veces por segundo.
+        - con la finalidad de ganar la recompensa del bloque.
+            - y crear una huella digital de dicho bloque
+        - El proceso requiere icambiar el nonce miles y miles de veces,
+            - generando una serie posibles de soluciones
+            - hasta lograr el objetivo antes que cualquier otro minero.
+            
+- Esto significa que cualquier nodo minero en la red puede extraer un nuevo bloque,
+    - pero necesita gastar energía para poder hacerlo.
+
+![BFFB4008-A8D8-4AA8-A4DC-513F168706FA.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4c9fe730-343c-48a2-9c7d-5c633545ea19/BFFB4008-A8D8-4AA8-A4DC-513F168706FA.webp)
+
+*Qué pasa cuando se encuentra el “hash ganador”?*
+
+- Un minero afortunado, finalmente produce el hash ganador,
+- Transmite su éxito a toda la red.
+- Para el resto de los mineros, la confirmar que el bloque es válido, es un proceso simple.
+    - Sólo se debe asegurar que todas las transacciones sean validas,
+    - y que el hash del bloque sea menor que el valor “objetivo”, o el objetivo de dificultad.
+- Al ser confirmado el bloque, los otros nodos lo agregarán a la cadena existente
+    - El proceso se repetirá aproximadamente cada 10 minutos
+    - los mineros comenzarán a intentar extraer un nuevo bloque encima.
+    
+    ![F1FA094A-4502-43F3-9461-BE2868FE53FE.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8961bed8-2768-4429-95c6-1affd813be28/F1FA094A-4502-43F3-9461-BE2868FE53FE.png)
+    
+
+*Qué pasa con el minero que gana*?
+
+- Quién  encuentra la solución añade al bloque una transacción a su propia dirección
+    - como recompensa por el esfuerzo dedicado.
+- A esta transacción se le llama **coinbase** (**monedabase**) y es la primera en cada bloque de la blockchain.
+- Este afortunado minero es recompensado con una cantidad de bitcoin nuevo liberado y las comisiones de la red (el dinero que la gente paga para que se procesen sus transacciones).
+
+## ****No Confíes, Verifica…. Que quiere decir?****
+
+- Las transacciones obtienen una confirmación cuando son incluidas en un bloque y luego tras la confirmación de cada bloque posterior.
+- Para que dicho bloque se incluya en la cadena de bloques, se debe enlazar correctamente debajo de el último bloque creado en la red.
+- Una confirmación **en la blockchain, indica que “la transacción ha sido procesada y validada por la red y es muy poco probable que se revierta”.
+- Se recomienda esperar un mínimo de 6 confirmaciones para asegurarse de que los fondos fueron transferidos.
+- Bitcoin es conocida como la **blockchain** más segura y veraz que existe.
+
+![CEE410BA-C18D-4C93-A576-11058B6B171C.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d82375dc-0ff1-48c1-a168-2431b6e7d46a/CEE410BA-C18D-4C93-A576-11058B6B171C.png)
+
+- Esto quiere decir que si en el siguiente bloque alguien trata de incluir una transacción que gasta dinero que ya fue utilizado anteriormente, será rechazada, o en otras palabras,  no pasará el proceso de verificaci
+
+Actividad:
+
+Vamos a: [https://www.blockchain.com/explorer/assets/btc](https://www.blockchain.com/explorer/assets/btc)
+
+Y busquemos el siguiente bloque:
+
+Hash: 00000000000000000005f574c0a27861d9019e0ba469bc6821f5774c4ffbfb19
+
+Cuantas confirmaciones tienen las transacciones contenidas aquí? 
+
+Que quiere decir?
+
+Podríamos encontrar el Bloque #1?
+
+Cual fue la recompensa?
+
+## El Hash del Bloque**:**
+
+- Cada bloque hace referencia a un bloque anterior,
+    - a través del campo ‘bloque anterior’(previous hash) en la cabecera del bloque.
+- La secuencia de los hashes que unen cada bloque al previo
+    - crea una cadena que se remonta hasta el el primer bloque jamás creado,
+        - conocido como el bloque génesis.
+- Cualquier modificación  mínima a cualquier transacción cambiará el hash del bloque,
+    - y lo desligará del bloque anterior.
+- Si un hacker trata de alterar hasta una coma de una transacción,
+    - se creará una cascada de fallas en la verificación de bloques posteriores.
+- Esto se debe a que cada bloque tiene información sobre el anterior.
+
+![BBF6C88F-B863-49B6-980B-03D3ED72DBEB.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fa79b09-7d4e-4048-9bb0-3aa1c6f42d5e/BBF6C88F-B863-49B6-980B-03D3ED72DBEB.jpeg)
+
+- Los bloques se componen de una cabecera de bloque y sus transacciones.
+- Mediante la función SHA256, se comprime toda la información contenida en el bloque.
+- Este resultado es un identificador de bloque representante de su “huella digital”.
+- Se conoce como el “hash del bloque”
+
+![41585F9B-0A10-4E04-AD23-08CF1CB6160C.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/467f1f8b-059d-4fad-a630-cbafa61a123c/41585F9B-0A10-4E04-AD23-08CF1CB6160C.png)
+
+### El Nonce del Bloque
+
+- El **nonce** un campo es un número dentro de la cabecera:
+    - Los mineros lo **modifican hasta que**  el **hash de la cabecera** resulte en el **objetivo de dificultad**.
+    
+    ![5D083894-1181-4BCF-A722-A44175065618.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d71f29d-0b2d-40d2-8ba8-2a8eae8326e2/5D083894-1181-4BCF-A722-A44175065618.gif)
+    
+- El objetivo de dificultad siempre comienza con una cantidad de ceros.
+    - La cantidad de ceros varía dependiendo de cuanta competencia existe para minar el bloque.
+    
+
+el proceso de minería actual: los ASIC son tan rápidos que agotan por completo el espacio nonce en una fracción de segundo, por lo que tienen que cambiar algo más para seguir cambiando el hash. Actualmente, los mineros cambian el mensaje de texto de la base de monedas, usándolo como "espacio nonce adicional".
+
+En el siguiente link se puede analizar la cadena de bloques en tiempo real.
+
+[https://explorer.bit2me.com/home](https://explorer.bit2me.com/home)  
+
+[https://bits.monospace.live/block/height/746043](https://bits.monospace.live/block/height/746043)
+
+**Visualización** de los últimos bloques, las transacciones confirmadas y sin confirmar, el número de transacciones, utilización de memoria y valor aproximado del bloque completo,  [https://bits.monospace.live/](https://bits.monospace.live/)
+
+Cual fue el último bloque minado?
+
+Cuantas transacciones se incluyeron en dicho bloque?
+
+Cual es el valor total transado en bitcoin?
+
+Cuanto fue el tamaño en Megabytes del bloque?
+
+Con cuantos ceros comienza el nonce del bloque?
+
+Cuanto ganó el minero en total?
+
+Cual fue el valor total de las comisiones que recibió el minero por adicionar las transacciones a la red?
+
+Escoge una de las transacciones de más valor del bloque. La cantidad de BTC se repartió a cuantos monederos?
+
+Cuando un minero encuentra un **nonce** que, añadido al **hash de cabecera,** cumpla el **objetivo de dificultad**, lo añade a la **cabecera del bloque nuevo** y lo envía a la red para que el resto de mineros puedan comprobar que la solución es válida.
