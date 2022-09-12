@@ -1,0 +1,245 @@
+# INTRODUCTION: Monetary System
+
+## What Is Wrong With Money Today?
+
+When sending money, you typically need an intermediary to verify the transaction. Your bank is an example of one such intermediary. By keeping transactions in a central database, the entity tracks each person’s account balance and makes sure that each person is the rightful owner of a claimed account.
+
+This convenience comes at a cost though. Systems like these have a single source of failure. Since these databases are centrally controlled, they can be easily manipulated. Governments can seize bank accounts without notice. Withdrawals can be blocked. Services can become unavailable due to hacks or technical issues. Negative interest rates and inflation, which occur in part because of decisions made by a central bank, can cause the purchasing power of your savings to dwindle in the blink of an eye.
+
+- **Definition of Money**
+    
+    Economists define *money as a good that is widely accepted as final payment for goods and services*. 
+    
+    - Two easy ways to look at it:
+        - Anything can be money as long as it fulfills the following basic use cases, using the six qualities of money.
+            - A unit of account
+                - **Definition:** A monetary unit or measure of value in terms of which accounts are kept and values stated.
+            
+            - A medium of exchange
+                - **Definition:** Something commonly accepted in exchange for goods and services and recognized as representing a standard of value.
+            - A store of value
+                - **Definition:** An asset that maintains its value, rather than depreciating.
+                
+                ![040EEF1B-94CC-40CB-8A17-4BDBC9450B88.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9946746-0490-48d6-8136-2a30c4dd9403/040EEF1B-94CC-40CB-8A17-4BDBC9450B88.jpeg)
+                
+            - Six qualities of money that matter:
+                - **Durability.**
+                    - If we traded apples, these would be hard to save because they would rot. We could easily smash them, so they’re not very durable.
+                - **Uniformity.**
+                    - Each unit of money needs to be exactly like the other. Hard to use e.g. diamonds, since even if you figure out how many carats a diamond is, it’s hard to find three carats for three carats (and a 100-carat diamond isn’t valued the same as 20 5-carat diamonds).
+                - **Portability.**
+                    - If you want to save or exchange money, it has to be easy to move around. You don’t want cattle, because they’re annoying to move, particularly if you have a lot of them.
+                - **Acceptability.**
+                    - If all we can use to trade is what we make/grow, then it’s hard. You have bags of rice, which I want, but you don’t want my shoes. How do we make the trade? We need something we can both use to trade again for other products, or to keep around for later purchases.
+                - **Limited supply.**
+                    - If there’s way too much of something, or you can get more of it at anytime, then you can’t save it. So you don’t want to keep for value anything that grows, since then someone wouldn’t take what you’re trying to give, but would just go grow it themselves.
+                - **Divisibility.**
+                    - We can’t easily use half a house as payment for something, or 1/100th of a house, if we wanted to buy clothes for the family. Being able to divide into whatever amount you need is key.
+                        
+                        ![D73BA54B-C76E-433A-A4EA-A9A8932AA995.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7eccf126-52cb-437d-bb06-1b28008c1901/D73BA54B-C76E-433A-A4EA-A9A8932AA995.jpeg)
+                        
+        - Something that is commonly accepted to buy goods and services or to pay debts and taxes.
+        - Energy that society finds valuable enough to store and trade.
+            - If you dig a hole in the desert, that took energy. But unless somebody sees that decision as valuable it can’t be converted into money.
+            - If you make exclusive shoes that everybody wants, people will give you their energy in exchange, and if everybody wants what you have, you can get more energy for the same amount of work you put in.
+        - Some people say “currency” and “money” interchangeably, but there is one big distinction: A currency *is **not** understood as being a store of value.*
+            
+            ![BD736B28-0A2E-45B7-B467-8C99A38EF49C.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2491b899-ab00-4eed-8a3f-b3fc5e068f98/BD736B28-0A2E-45B7-B467-8C99A38EF49C.jpeg)
+            
+
+- **ONE:** **Inflation**
+    - Definition:
+        - *Inflation* *is* *the sustained increase in the prices of goods and services, particularly when that increase outpaces a sustained increase in wages.* When more money chases the same number of goods, this raises the price.
+        - Another way to see it: Inflation means the work you put in yesterday is worth less today.
+            - If you were paid $10 yesterday, and that could buy you 10 loaves of bread at $1 each, more money put into the economy without the number of loaves of bread increasing means the price of bread will go up. If it rises to e.g. $2/loaf, that’d mean you can only buy 5 loaves of bread with the same amount of money.
+            - But if you put in 8 hours of work, you’ll still have put in 8 hours of work even if 10 years has passed! That energy should stay with you over time.
+            - This is why we often understand inflation as *theft.*
+    - Watch 8-minute video aptly describing inflation:
+    
+    [https://www.youtube.com/watch?v=UMAELCrJxt0](https://www.youtube.com/watch?v=UMAELCrJxt0)
+    
+    - We see the following three reasons inflation happens:
+        1.  **Cost-Push Inflation**
+            - When the cost of doing business rises, and that’s pushed onto customers.
+                - This can happen from government regulations, wars, droughts, supply-chain difficulties, and other situations.
+                - Raw materials get more expensive because more people want them, and production of those materials hasn’t yet increased.
+                - People don’t have the skills the economy needs to do well, so the ones who do work command a very high price.
+                - New technologies are often very expensive — they get cheaper over time.
+        2. **Demand Inflation**
+            - When an increasing number of people want something, and the supply can’t keep up.
+            - Lowered taxes (or even lowered interest rates on loans) means an increase in disposable income...
+                - ...which puts more money into circulation...
+                - ...which raises prices...
+                - ...until the supply of something increases, and then the prices go back down.
+        3. **Governments Printing Money**
+            - Questions for the class to think about:
+                - Are the jobs / projects being created through inflation authentic? (As in, if they come from printed money, are they jobs that are actually meaningful?)
+                - Why is it important to governments that people purchase things with their money?
+                - Do we purchase “essential” things when we get more money to chase the same goods?
+                - What goods do we *not* want to rise at much higher rates than our wages?
+        - The problem with inflation is, the more money you put in, the more wages need to keep up, which means the more money you need to put in, so then wages need to keep up faster... It’s a cycle that leads to either:
+            - **Hyperinflation** — The rate of inflation goes to 50% per month. This pushes people to trade their money for any good or service that holds value better. Example: a bicycle *should not* lose 50% of its value from month to month.
+            
+            - **Hyperdeflation** —  A radical decrease in the price of goods or services, pushing people to save and stop investing or consuming since tomorrow the value of their money will buy them more. These effects can lead to lower production due to lower demand and lower overall economic growth.
+            
+            ![8C545F38-BB46-4391-9E3D-AC04FF0ADBC1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/170312e7-4414-486e-b826-c00f703674a6/8C545F38-BB46-4391-9E3D-AC04FF0ADBC1.png)
+            
+    - Inflation thus means: **It is hard, impossible, or not smart to save.**
+        - (Corollary: It is better to spend.)
+        - THIS means: We don’t really get to think about our futures past a couple of days, weeks, months, or years. **Ideally, *we are able to prepare a future for our grandchildren and beyond.*** Inflation prevents that.
+        - Inflation encourages a **Higher Time Preference**, or a preference to get e.g. $100 now, versus $200 in a year.
+            - [Wiki for more depth on this.](https://en.wikipedia.org/wiki/Time_preference)
+            - Official definition of *Time Preference:* *The current relative valuation placed on receiving a [good](https://en.wikipedia.org/wiki/Production_(economics)) or some [cash](https://en.wikipedia.org/wiki/Cash) at an earlier date compared with receiving it at a later date*.
+        - Our goal is to create **Lower Time Preferences.**
+        
+        ![B9D73F5E-5CED-45DD-B16D-981DAF037121.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c751ea96-d9db-4039-aac1-0a334a182465/B9D73F5E-5CED-45DD-B16D-981DAF037121.png)
+        
+- **TWO:** **Surveillance**
+    - Unless you’re buying things in cash, your purchases are surveilled by the US and other governments.
+    - No chance for privacy.
+    - Credit card companies and others can reveal what you purchased if subpoenaed by a court, and so on.
+- **THREE: Centralization**
+    - When we give our power to a central authority, we have to trust that that authority (in this case the central bank / government) has our interests at heart.
+    - If they don’t, it may mean that the central authority makes things really hard to understand for people who are not part of that central authority, even when the concepts are easy, so that they can further centralize that power.
+    - **Central Bank Basics [(Source)](https://www.thestreet.com/markets/rates-and-bonds/how-do-central-banks-work-10375486):**
+        - The central bank controls the country’s monetary policy. (The US Central Bank is called the *Federal Reserve.*)
+        - Key job: to manipulate the money supply in that country to meet its economic goals (such as market growth).
+            - Who defines these market goals, and who benefits from these goals?
+                - (This is a very big question. The short answer is, big banks are closely tied to the Federal Reserve, and undoubtedly they’re able to influence federal — and even global — policy.)
+        - Three main ways the Federal Reserve is able to alter the money supply:
+            - *Reserve requirements*
+                - Banks are mandated to keep a certain percentage of all deposits in the bank. (The Federal Reserve controls this.) Lowering that percentage means more money can circulate, raising it means less money gets to circulate.
+            - Interest rates (AKA The Cost of Money)
+                - The Fed doesn't set the interest rates you pay on your mortgage (because it can't). Instead:
+                - The Fed has direct control over the *"discount rate,"* the rate the Fed charges banks that borrow from it. The Fed also has some level of indirect control over the *"federal funds rate,"* the rate that banks charge each other for overnight federal loans.
+            - Open market operations
+                - The government buys or sells securities.
+                - If the Fed wants to increase the supply of money, it turns to the market and purchases Treasury securities (such as T-bills, T-notes and T-bonds). When it buys these securities, it gives the sellers money, and that increases the supply of money in the economy.
+                - When the Fed wants to decrease the money supply, it does so by selling Treasury securities and collecting money in exchange.
+                
+                ![297A6F43-20E8-4137-8A23-4189A3060947.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/96d29777-d996-458b-93c2-0f13b17e6346/297A6F43-20E8-4137-8A23-4189A3060947.png)
+                
+- **FOUR:** **Restriction**
+    - Final issue with modern monetary system: It can be difficult to move money between nations. This difficulty is made primarily by controlling the ability of each individual to exchange their local currency for foreign currencies.
+        - In other cases, relying on banks and companies to send remittances can be expensive (Western Union, for example).
+    
+    Here is a list of policies and ways this can happen:
+    
+    - **Government policies**
+    
+    The governments of countries like Argentina, Russia, Indonesia and China have aggressively restricted the amount of money that its citizens can transfer, exchange or take abroad. The average citizen of China, for example, is only allowed to convert up to $50,000 of renminbi (Chinese currency) every year.
+    
+    - **Bank policies**
+        - Most banks have a limit on how much cash can be withdrawn from an account, or have a minimum on how much you can transfer. Most of these transactions also have fees, especially when transferring to other banks. These, like many others, are different ways financial institutions can make it harder to make daily transactions to its clients. For example in Greece, after the 2015 crisis it had, its citizens could only withdraw 60 euros each day, a clear reminder of who really controls their money.
+        - A more clear example of this is when sending money abroad: Remittances in El Salvador represent 23% of its gross domestic product, which in 2020 was nearly 6 billion dollars. Around 60% of that cash comes via remittance companies and 38% through banking institutions. These companies like Western Union have steep fees, especially for amounts less than $1000.
+        - **Fees**: For small amounts, like $10, fees can up to $3.50 or a 33% fee. For a few hundred, fees are around 12% to 15%. All of these fees add up to a substantial amount that Salvadorans abroad must work harder to pay, and this is money that is not going to their families and loved ones back home.
+        - **Schedule:** Both sender and recipient must go to their nearest front desk (during business days and work hours of course) in order to send/receive a remittance.
+        - **Security**: For Salvadorans in El Salvador, going to a Western Union office represents an additional risk, as this means they must take their money in cash, increasing their chances of being robbed.
+
+## Project/Approach: Socratic Conversation
+
+- **Instructions**
+    - All of the above can be understood using a mix of lecture and socratic. The properties of money can be understood in conversation with the class.
+    - For the socratic piece **(expected sixty (60) minutes to get through all these concepts — feel free to take tangents and ask exciting questions)**:
+        - Ask the class to imagine what forms of money we used to use. (Another way: “If we were all trapped on an island, and we each had a suitcase of stuff, how would we trade among each other?”)
+        - Probe each element of money until we figure out the six qualities. If the students get into heated conversation, let them organically arrive, and pull them back if they fall into an unrelated tangent.
+        - After the six properties are figured out, they can be asked:
+            - What backs our money today? How do we know it’s “good”?
+            - Are prices always the same for different things we buy? What might be some reasons the prices go up and down?
+                - Do they tend to go up more or down more, in your experience? What things you buy come to mind?
+                - Does the money you or your family make go up in the same amounts?
+
+## The History of Money
+
+- **Video + Discussion**
+    
+    [https://www.youtube.com/watch?v=YCN2aTlocOw](https://www.youtube.com/watch?v=YCN2aTlocOw)
+    
+    - Places we can stop the video if we like, to encourage discussion:
+        - 1:04 — “At the same time humans invented money, they also invented debt”
+            - Questions:
+                - Do we need debt? Why or why not?
+                - What are some benefits of debt? What are the dangers?
+                - Is it possible to build a whole world on debt, where everybody owes everybody else something?
+        - 2:15 — Notice that the ancients inflated currencies by mixing e.g. gold with cheaper, baser metals, and still calling it a “gold coin.” That way, rulers could mint more coins to buy more things, while diluting people’s wealth.
+        - 4:15 — Comment that IOU notes (banknotes) make it hard to keep the money supply down, especially when private lenders create most of it.
+            - **EXPLANATION**:
+                - Banks have to keep more money in their reserves than people have deposited with them.
+                - Banks are allowed to loan their **excess reserves** to other banks.
+                - The central bank sets the interest rate banks are allowed to charge to loan those reserves to each other, and the interest rate for banks to borrow money from it.
+                    - (Right now, in the US, both rates are *really* low.)
+                - Banks then give out that money to people in the form of loans (which have low interest rates).
+                    - This puts more money into the economy, which increases inflation.
+        - 6:30 — Discussion on **Fractional Reserve Banking**.
+            - Questions:
+                - What does it mean to loan many times more money than you can pay back?
+                - When government allowed this to happen by insuring bank reserves, what exactly did banks do to take fractional reserve banking to “a whole new level?” (This is almost worth drawing out by diagram!)
+        - 7:39 — How money is made
+            - Definitions we need to cover to fully understand this section:
+                - Bonds: an [I.O.U.](https://www.investopedia.com/terms/i/iou.asp) between the [lender](https://www.investopedia.com/terms/l/lender.asp) and borrower that includes the details of the loan and its payments. Governments usually create these, but so do companies to finance projects and operations.
+                    - If a government issues a bond to pay off bad debt, that means the taxpayer has to pay it back... in theory.
+            
+- **Conclusion**
+    - Four global phenomena happening today, thanks to centralization:
+        - The devaluation of personal wealth;
+        - The restriction of the transfer of value;
+        - Financial centralization;
+        - The loss of privacy.
+    - How do we push back against these phenomena, caused by poor government policies?
+        - Bitcoin.
+
+- **Possible Class Activity** - (taken directly from Federal Reserve Bank in Philadelphia)
+    - **Introduction**
+        - Why Money?
+            - Barter is the direct exchange of goods and services without the use of money. For barter to occur there must be a double coincidence of wants. That is, a person who wants to trade something must find a trading partner who has what he wants and wants what he has. This means of exchanging goods and services is time consuming, greatly restricts economic activity, and limits specialization. The use of money alleviates these problems. For money to be useful it must function as a unit of account, store of value, and a medium of exchange. To be a good medium of exchange, money must also be portable, divisible, durable, scarce, acceptable, and stable in value.
+    - **Time Required:** 30 min.
+    - **Materials:**
+        - Activity 1, one copy cut apart for each group of 10 students
+        - Activity 2, cut apart, one per student.
+    - **Procedure**
+        1. Tell students they are going to participate in a trading simulation. Divide students into groups of 10. Extra students should be paired with students already assigned to a group.
+        2. Distribute Activity 1 to each group. Each student in the group will receive one card from Activity 1. Tell students that the top half of the card tells them what they have to trade and the bottom half tells what they want. Instruct them to tear the top from the bottom along the dotted line and to write their names on the back of each piece.
+        3. Inform groups they are only to trade with members of their group, and once every member has what he wants, the group members are to return to their seats.
+        4. Allow the groups time to trade. Time how long it takes the students to obtain what they want.
+        5. Discuss the following:
+            - *What problems did you have obtaining the item you wanted?* (It was difficult to find the person who had what you wanted. It was confusing and took time.) Point out that for barter to occur there must be a coincidence of wants. The person who has what you want must also want what you have.
+            - *Did anyone make more than one trade? Why did you do this?* (Some may trade for something not wanted in hopes of finding someone who would want the item and have what they wanted.)
+            - *What would make trading easier?* (Money)
+        6. Ask group members to return the cards so individuals have their original two cards.
+        7. Distribute one money card, Activity 2, to each student.
+        8. Explain that this time students will use the money card to get what they want as stated on their new card. There will be no bartering. Inform students that the price of each good is one money card. Remind them to trade only with members of their group and to return to their seats when everyone in the group has traded for what they want.
+        9. Allow the groups time to trade. Time how long students take to obtain what they want using money.
+        10. Discuss the following:
+            - *Which round was easier?* (money round) *Why?* (Everyone was willing to take money.)
+            - *Which round took less time?* (money round) *Why?* (Everyone was willing to take money.)
+            - *Why are people willing to accept money in exchange for goods and services?* (They can use the money to buy other goods and services.)
+            - *What is money?* (Anything that is generally accepted in exchange for goods and services.)
+        11. Tell students that bartering, trading without money, is one means of exchange colonists used to obtain the goods and services they needed. They also used commodity money. Explain that commodity money is a medium of exchange that is an actual good generally accepted because it has value as a good and as money.
+    - **Closing**
+        1. What is bartering? (The direct exchange of goods and services without money.)
+        2. What are the problems with barter? (Difficulties in obtaining a coincidence of wants, time consuming.)
+        3. What is commodity money? (A medium of exchange that is an actual good is generally acceptable because it has value as a good and as money.)
+        4. What problems occur when using commodity money? (Difficult to carry, spoilage, variations in quality, difficult to divide, loss of value when too much was available.)
+        5. What is money? (Anything generally accepted in exchange for goods and services.)
+        6. Why are people willing to accept money? (They know they can use the money to buy other goods and services they want.)
+    - **Assessment**
+        - Have students keep a diary of all the things they purchase during a week. Ask them to write two paragraphs about how their week of purchases would have been different if they had had to barter for what they wanted or had to use commodity money such as toilet paper.
+            
+            ![E0A6D60D-CD18-443E-AFF0-F5CA5B25DC4A.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/302f9ef3-c9e7-4272-8ce8-5f533a7f7239/E0A6D60D-CD18-443E-AFF0-F5CA5B25DC4A.png)
+            
+            ![E2647B6A-F65B-4554-A604-F33E6330CC40.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e82924b8-9452-4ef6-a3f9-bd4636479982/E2647B6A-F65B-4554-A604-F33E6330CC40.png)
+            
+
+(Early Draft)
+
+- **Narrative Form:**
+    
+    Formally defined, money is something that is commonly accepted to buy goods and services or to pay debts and taxes. You might think this is limited to cash or a number in your bank statement, but the reality is that anything can be money as long as it fulfills these basic use cases: a unit of account, a medium of exchange, and a store of value. These characteristics will be exemplified along today’s class. 
+    
+    Since the early days of civilization, humans have used different materials as a way to make commerce and exchange easier. These elements or objects could be cacao seeds, like the Mayans used in Central America, or seashells in Asia, or precious stones in Africa. Eventually, most cultures switched to rarer materials like silver and gold. These precious metals had a few ideal characteristics: difficult to extract, naturally rare, and hard to counterfeit.
+    
+    In modern times, we see a reflection of this in places where government money is of little value, such as in prisons, where cigarettes and instant ramen are well-known units of currency.
+    
+    Back to our history timeline, governments and the ruling class eventually had a major interest on having their own currency and make sure it had value, or is backed by something of value. The invention of the printing press provided what was finally needed for countries to start printing their own currencies, which were usually backed by gold. All of this was eventually controlled and regulated by central banks. Naturally, when new money needed to be printed, governments could obtain more gold to back it up.
+    
+    ![F196D1D9-5809-4907-A04D-BD0A97EC6612.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb5aa891-3985-41eb-896c-f932ffcf68bc/F196D1D9-5809-4907-A04D-BD0A97EC6612.jpeg)
