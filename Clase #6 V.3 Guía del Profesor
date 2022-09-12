@@ -1,0 +1,238 @@
+# Los Nodos y la  “Mempool” y el Doble Gasto
+
+- **El doble gasto:** Cuando alguien envía la misma “moneda” dos veces.
+- EJEMPLO:
+    - Digamos que Sarah les debe a Bill y a Tom 0.2 BTC, pero tiene exactamente 0.2 BTC en su billetera. Ella crea dos transacciones simultáneas en las cuales le manda 0.2 BTC a Bill y también 0.2 BTC a Tom. Es como si hubiera escrito un correo electrónico en el que declara su amor y se lo hubiese mandado simultáneamente a dos personas.
+    
+    ![CA02E4C9-212D-473F-8341-2BD854847F02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1318a7f-318b-4845-9c74-829aa8c90c87/CA02E4C9-212D-473F-8341-2BD854847F02.png)
+    
+    - ¡Las dos transacciones no van a ser confirmadas por la red! Eso sería un ejemplo de un doble gasto. Pero si tenemos un sistema en el que ningún computador está a cargo, ¿cómo se hace para decidir cuál transacción se rechaza y cuál queda escrita permanentemente en la cadena? Bitcoin usa un proceso llamado **minería**.
+
+## **La Red de Bitcoin**
+
+- Está compuesta por los nodos de Bitcoin… aquellos computadores que ejecutan su software,  y verifican las transacciones. El hecho de que se comunican entre sí a través del ciberespacio los convierte en una red. En términos mas sencillos, los nodos son puntos de conexión a una red desde los que se puede crear, enviar, y recibir información.
+
+![C8407F1E-6058-4CA9-8EC6-55197A230F0D.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd3bb9ae-e8b4-4f5f-841f-b32d604be95e/C8407F1E-6058-4CA9-8EC6-55197A230F0D.jpeg)
+
+Cómo se dissemina una transacción a través de toda la red?
+
+Se puede engañar a Bitcoin?
+
+Cómo le dan el visto bueno a una transacción los nodos?  
+
+Cómo se agrega la transacción a la blockchain?
+
+Que otras preguntas tienes acerca de Bitcoin? Puedes escribirlas aquí y volveremos a ellas al finalizar el curso. 
+
+## Nodos Completos
+
+Ciertos equipos informáticos, a los que se les llama **nodos completos**, solucionan el problema del doble gasto y apoyan a la seguridad de Bitcoin, pero no todos los participantes tienen suficiente espacio en su disco duro para convertirse en uno de estos. De ser ese el caso, simplemente se pueden usar “monederos” que permiten enviar y recibir bitcoin. 
+
+  
+
+![76D8DDC8-EC5A-4C26-B277-56B986A4741B.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/78be388a-7e8c-442e-81a5-c1ec384f5546/76D8DDC8-EC5A-4C26-B277-56B986A4741B.jpeg)
+
+Cuando un nodo completo  recibe una transacción de su “vecino”, lo primero que hace es verificarla, ya que nadie quiere recibir transacciones maliciosas o defectuosas. Para un nodo, verificar una transacción es similar a lo que hace cualquier persona cuando almacena sus recibos físicos por un tiempo y luego compara cada mes con el saldo en su cuenta bancaria. 
+
+![241C1AA2-F1F1-4516-9B68-E9B214738313.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f8200ab-8f43-4b14-a87b-c2f4519bd013/241C1AA2-F1F1-4516-9B68-E9B214738313.jpeg)
+
+Los nodos completos tienen tres trabajos:
+
+1. **Compartir información** 
+    
+    Hay dos tipos de transacciones que comparten los nodos:
+    
+    1. *Transacciones frescas*: transacciones que ingresaron recientemente a la red y van directamente al **grupo de memoria.** Los nodos se encargan de verificar o rechazar estas transacciones.
+    2. *Transacciones confirmadas*: transacciones que han sido "confirmadas" y escritas en un bloque. Estas se agrupan y forman los bloques; no se comparten individualmente.
+    
+
+![05435580-499A-4B0A-A118-424984E7F8E5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e04147ac-983a-4946-a6cd-8ee957bf34b1/05435580-499A-4B0A-A118-424984E7F8E5.png)
+
+> Aquí [https://dailyblockchain.github.io/](https://dailyblockchain.github.io/) se puede observar cómo se dispersan rápidamente las transacciones válidas de nodo a nodo.
+> 
+
+1. **Guardar una copia de las transacciones confirmadas.** Los nodos completos son los que reciben las transacciones, proporcionan seguridad a Bitcoin y son indispensables para la red. Cada confirmación reduce de manera exponencial *e*l riesgo de que la transacción sea revertida .
+
+![614DA023-C728-4527-BAB2-448F731277B7.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b0399598-0a9e-446f-aaf3-273bdd302a2e/614DA023-C728-4527-BAB2-448F731277B7.jpeg)
+
+1. **Validar los bloques y llegar a un consenso con los otros nodos.** Todos los nodos participantes  ****acepten de forma unánime la información que contiene un bloque entero antes de incluirlo en la cadena de bloques. Además, una copia de la cadena de bloques para su custodia y la comparte con otros nodos.  
+
+**Actividad**:    Exploremos uno de ellos:
+
+  [https://www.blockchain.com/explorer?view=btc](https://www.blockchain.com/explorer?view=btc)
+
+Vamos al link de Bitcoin donde podemos observar: 
+
+- el monto total que se transmite,
+- el tamaño (o la memoria que ocupa en el bloque),
+- el ID de una transacción aleatoria  y
+- el estado de la transacción.
+- Si la transacción ya ha sido confirmada, muestra el número total de confirmaciones.
+
+-Latest Transactions= Últimas Transacciones
+
+-Latest Blocks=Últimos Bloques
+
+Qué información reconoces? Cual te sorprende? Cuál es el valor de la última  transacción? Podemos ver si ya está confirmada?
+
+**V.2**
+
+## UTXO-“Monedas no Gastadas” o “Unspent Transaction Output”
+
+Teniendo en cuenta que las transacciones son simplemente entradas y salidas de bitcoin de una billetera a otra, todo bitcoin que todavía no se haya gastado se considera “UTXO”, (monedas no consumidas).  El Estado actual de la cadena de bloques es la base de datos UTXO.
+
+Cuando un usuario desbloquea su monedero con su clave privada para enviar bitcoin a otro, su saldo puede estar en peligro, ya que su caja de seguridad está abierta. Por este motivo, es recomendable siempre mandar nuestro saldo a un monedero nuevo.  Para los nodos en la red, es fácil llegar a un consenso, ya que todos mantienen una copia de la misma base de datos y pueden comprobar, los saldos de cada una de las direcciones.
+
+Visualicemos qué pasa cuando se confirma una transacción :
+
+Las cajas amarillas representan UTXO y las cajas grises representan monederos en los que ya no hay bitcoinEn este primer diagrama, el nodo confirma que la cantidad de bitcoin que se envía,  si existía  en el monedero original y por lo tanto, ejecuta la transacción. Reparte cierta cantidad de bitcoin a dos direcciones diferentes.
+
+![08FAD2AB-71CC-46BD-A525-38EB17198C9E.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcf40c9c-fd28-42ca-a3b5-5100327853f2/08FAD2AB-71CC-46BD-A525-38EB17198C9E.png)
+
+En el diagrama superior nos muestra el primer paso de la transacción. Existe suficiente bitcoin para que la transacción siga adelante? Si, hay exactamente 8 bitcoin ya que la caja que envió el bitcoin ahora es de color gris.
+
+![4C1AB641-C897-4A2E-86D3-581093C5BC75.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f90b7fe-cd18-4da3-936d-614d5571f190/4C1AB641-C897-4A2E-86D3-581093C5BC75.png)
+
+Después de haber confirmado la transferencia, la blockchain solo se encargará de monitorear los monederos que recibieron dinero, el de 6BTC, y el de 2BTC. Este es ahora el bitcoin no gastado o el UTXO.
+
+Ahora miremos un ejemplo real. Un monedero (el cual tiene una dirección que comienza con 3G9), le envía su bitcoin a dos monederos diferentes.  Una de dos cosas sucedieron: 
+
+1. El emisor (3G9) sólo quería enviar 43185.96 BTC a otra persona y enviarse el saldo (45671.28 BTC) a  su nueva dirección, por medidas de seguridad.
+2. Enviar 43185.96 a una (persona/grupo de personas) dirección  y enviar los 45671.28 a otra.
+
+![57F2EB72-A36F-4385-9DB0-6318D0E4CEE5.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e4e0a8f0-d461-4acb-b218-974635816797/57F2EB72-A36F-4385-9DB0-6318D0E4CEE5.jpeg)
+
+En este cuarto diagrama, el nodo automáticamente rechaza la transacción, ya que no existe suficiente bitcoin en la billetera original. 
+
+![BB581452-DB05-4842-826D-1521B27E6182.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c6f076e-b9e4-49f7-826a-2efe32c8eeed/BB581452-DB05-4842-826D-1521B27E6182.png)
+
+### **El problema del doble gasto**
+
+La razón principal de la creación de esta área de espera, es para solucionar el problema del “doble gasto.” Veamos por que.  
+
+Un bitcoin o un Satoshi es algo único. No puede duplicarse como otro tipo de archivos digitales (fotos, videos, etc.).
+
+Un bitcoin o un Satoshi es algo único. No puede duplicarse como otro tipo de archivos digitales (fotos, videos, etc.), o como un cobro doble a través de una tarjeta de crédito. 
+
+Día #1:
+
+- Digamos que Raquel pide un almuerzo en McDonalds por 10USD.
+- Paga en efectivo con dos billetes  de 5USD.
+- El pago queda confirmado instantáneamente
+    - ambas partes han presenciado físicamente el trámite y hubo un intercambio sencillo.
+    - Así de simple, una hamburguesa a cambio del dinero.
+
+Día #2: 
+
+- Raquel pide el mismo almuerzo y tiene dos billetes de 5USD de nuevo,
+- pero uno es original y otro falso (una copia exacta).  Los entrega como forma de pago.
+- Siendo que los números de serie son idénticos
+    - el cajero fácilmente podría ver que uno es falso,
+    - o simplemente aceptarle el pago como el día anterior.
+
+Día #3 (Raquel estuvo de buenas y pudo salirse con las suyas)
+
+- Raquel va a tratar de replicar su bitcoin como replicó su billete en McDonalds.
+- Ella le debe 0.2BTC tanto a Jaime como a Pepe, pero sólo tiene 0.2 BTC en su monedero.
+- Raquel abre su monedero en su teléfono y en el de su mamá con su frase semilla.
+- Desde su teléfono manda 0.2 BTC a Jaime
+- Desde el teléfono su mamá manda 0.2 BTC a Pepe
+- Se asegura de mandar las dos transacciones exactamente al mismo tiempo.
+- Dos nodos diferentes reciben las dos transacciones pero Raquel tiene sólo 0.2 BTC en su monedero.
+    - En el mejor caso, si el banco acepta su disputa, recuperará su dinero en unos meses.
+        
+        ![CA02E4C9-212D-473F-8341-2BD854847F02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1318a7f-318b-4845-9c74-829aa8c90c87/CA02E4C9-212D-473F-8341-2BD854847F02.png)
+        
+
+Por otra parte, bitcoin y otras criptomonedas son dinero digital.  Esto significa que, a diferencia de las monedas físicas, NO pueden ser fácilmente copiadas y enviadas a múltiples personas simultáneamente, de la misma manera como le enviamos un correo electrónico. Por lo tanto, una las principales funciones de los nodos de Bitcoin, es revisar de que cada transacción sea válida y que el usuario no haya intentado gastar dos veces los mismos fondos. Bitcoin soluciona el problema del”doble gasto”.
+
+## ****No Confíes, Verifica****
+
+Cuando por primera vez recibimos una transferencia en nuestro monedero, un apunte con nuestra dirección Bitcoin y el monto que hemos recibido queda grabado en la cadena de bloques. Cómo nos aseguramos que esto ha sucedido?  
+
+- Las transacciones obtienen una confirmación cuando son incluidas en un bloque y luego tras la confirmación de cada bloque posterior.
+- Para que dicho bloque se incluya en la cadena de bloques, se debe enlazar correctamente (solucionando un problema matemático) debajo de el último bloque creado en la red.
+- Una confirmación **en la blockchain, indica que “la transacción ha sido procesada y validada por la red y es muy poco probable que se revierta”.
+- Se recomienda esperar un mínimo de 6 confirmaciones para asegurarse de que los fondos fueron transferidos.
+
+Los clientes de los monederos  siempre tendrán la oportunidad de ver el estatus de sus transacciones frescas, como las confirmadas. Cómo ?
+
+Los exploradores de bloques son una ventana a todas las transacciones que han existido en una cadena de bloques. Permiten comprobar el saldo de cada dirección, ver los detalles de cada transacción y mucho más. Exploremos uno de ellos:
+
+  [https://www.blockchain.com/explorer?view=btc](https://www.blockchain.com/explorer?view=btc)
+
+Vamos al link de Bitcoin y miremos:
+
+Podemos observar el monto total que se transmite, el tamaño (o la memoria que ocupa en el bloque), el ID de la transacción y **el estado de la transacción**. Si la transacción ya ha sido confirmada, muestra el número total de confirmaciones.
+
+-Latest Transactions= Últimas Transacciones
+
+-Latest Blocks=Últimos Bloques
+
+Qué información reconoces? Cual te sorprende? Cuál es el valor de la última  transacción? Podemos ver si ya está confirmada?
+
+## Grupo de memoria o mempool
+
+Antes de contestar que es la “mempool”, pensemos en lo siguiente: 
+
+- Una persona almacena sus recibos físicos
+- luego los compara al final de cada mes con el saldo bancario
+- verifica que todos los cobros estén correctos.
+    - Puede darse cuenta que un establecimiento pasó su tarjeta de crédito dos veces;
+    - le cobran doble por un almuerzo,
+    - podría  ir al banco y tratar de revertir uno de los pagos,
+
+Antes de que las transacciones se puedan agregar a la cadena de bloques, deben entrar a una ****una especie de sala de espera, llamada la piscina de memoria o la mempool.
+
+- **¿Por qué lo necesitamos?**
+- Es un lugar donde los mineros pueden decidir qué transacciones quieren y pueden poner en el siguiente bloque.
+- Las transacciones se envían con incentivos monetarios. Esta es una manera de remunerar a los mineros por su trabajo. Durante ciertos momentos en los que hay mucho tráfico, los mineros elegirán aquellas transacciones que tengan la incentivos más altos. Aquellas con las tarifas más bajas se agregarán una vez que el tráfico haya disminuido.
+- Cual es la relación entre la cantidad de transacciones en la mempool y el tráfico en la red?
+    - Entre más transacciones hayan en la mempool, más congestionada la red. Los incentivos monetarios generalmente son mayores cuando hay mucho tráfico.
+    - El tamaño de un bloque es de aproximadamente 4 MB y sólo puede contener unas pocas miles de transacciones como máximo, por lo que es importante elegir.
+        
+        ![316547DC-73CB-4838-BA80-693E6120CA01.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1d402b2-7844-41b2-a027-3b3c4796fdf9/316547DC-73CB-4838-BA80-693E6120CA01.png)
+        
+- La mempool de Bitcoin ayuda a la administración y monitoreo de transacciones. Tanto los mineros como los usuarios se benefician de este protocolo.
+    - Para los mineros, la mempool iguala el nivel de comisiones en la red.
+    - Para los usuarios, proporciona una capa adicional de seguridad y resistencia contra ataques DDoS. Los ataques DDoS ocurren cuando una red se inunda con transacciones minúsculas, provocando una congestión inmanejable.
+
+![C1A93504-47FD-48CB-99A7-CD988068544E.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8e50112-ec42-4d45-b69f-63aebbcd062d/C1A93504-47FD-48CB-99A7-CD988068544E.jpeg)
+
+- **¿Qué es?**
+    - Un área de espera donde se retienen todas las transacciones antes de que se coloquen en un bloque y se conviertan en parte de la cadena.
+- **Que sucede con las transacciones que van de los monederos a la mempool?**
+    - Los nodos las comparten y deciden si deben aceptarlas o rechazarlas.
+    - Si son aceptadas, esperan que un minero la seleccione y las adicione en el siguiente bloque
+    - No todas las personas agregan un incentivo monetario suficientemente atractivo, algunas transacciones se quedan en el área de espera  o mempool.
+
+![D8C7E7FD-41E3-40F2-92FF-F41380B86236.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7dfe281-7264-446b-b57f-ea3702edf153/D8C7E7FD-41E3-40F2-92FF-F41380B86236.png)
+
+## Actividad: Transacciones Verificadas pero no Confirmadas
+
+[https://bits.monospace.live/](https://bits.monospace.live/)
+
+[https://chainflyer.bitflyer.jp/](https://chainflyer.bitflyer.jp/)
+
+[https://m.twitch.tv/btc_live?desktop-redirect=true](https://m.twitch.tv/btc_live?desktop-redirect=true)
+
+A continuación podemos ver una transacción real sin confirmar. Como podemos observar, tiene mucha información. Destaquemos lo más importante: Un identificador único ( la huella digital de la transacción), el espacio de memoria que ocupa, la comisión que se paga y el monto de la transferencia)
+
+Por el momento, miremos los bloques pequeños que se acumulan en la parte inferior. Es una representación de cada una de las transacciones que falta por confirmar, o estar permanentemente adicionada a un bloque. 
+
+TxID: 434948b2de9de18398294f84e42436ec59fb86faf34a21052bd640a97cd94b7d
+1 input	⟶	2 outputs
+Size: 216.75 vbytes
+Fee rate: 27.01 sats/vbyte
+Fee: 5,854 sats
+Total value: ₿ 11.89940252 ≈ $ 278K
+
+Podríamos analizar otra u otras transacciones? 
+
+Es de mayor o menor monto?  
+
+Los participantes pagaron una comisión más alta o más baja? 
+
+Cual transacción será más probable encontrar en el siguiente bloque? Porqué?
+
+Qué querrá decir cuando un bloque se cae hacia el abismo?
