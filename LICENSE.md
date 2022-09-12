@@ -6,7 +6,7 @@
 
 ## Translations and Derivatives (eg. PDF, HTML, EPUB ebooks)
 
-The current license does **not permit derivative or commercial work**. This means, it does **not** permit independent translations without pemission/license from Mi Primer Bitcoin. It also does not permit the production and circulation of PDF, HTML or other derivative renderings of the source ASCIIDOC, (with the exception for personal use only, not shared with others).
+The current license does **not permit derivative or commercial work**. This means, it does **not** permit independent translations without pemission/license from Mi Primer Bitcoin El Salvador. It also does not permit the production and circulation of PDF, HTML or other derivative renderings of the source ASCIIDOC, (with the exception for personal use only, not shared with others).
 
 You can't translate this book without permission. You can't create ebooks in PDF, HTML EPUB or any other format unless it is for personal use only and not shared/distributed.
 
