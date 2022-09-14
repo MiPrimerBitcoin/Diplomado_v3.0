@@ -82,7 +82,8 @@ La mayoría de los monederos más seguros proporcionan
     - Nadie más en el mundo ha visto jamás.
     - Es la clave única que permite acceder el bitcoin del usuario en cualquier dispositivo
     - Se usa para como génesis para crear cada una de las **claves privadas**. 
-    - (https://learnmeabitcoin.com/technical/mnemonic)
+    - https://learnmeabitcoin.com/technical/mnemonic
+
 
 
 - Cada **clave privada** genera una **clave pública,**
