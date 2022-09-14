@@ -1,0 +1,25 @@
+Our framework for teaching (inspired from models below) - we can use each one in different scenarios and different lessons, depending on what the goal of the lesson is. 
+
+# Frameworks for teaching
+
+Although at the end of each lesson it is not required that students learn a full skill (we should map out the skills we want to teach), they should be able to “do” something that gets them closer to that skill. 
+
+## Outcomes and skills we are hoping to cover
+
+**Big Goals — For Students to:**
+
+- [ ]  Have a working sense of the history of money (”How We Got Here”)
+- [ ]  Understand the fundamentals of Bitcoin
+- [ ]  Be able to use, transact, and secure Bitcoin (including through the Lightning Network)
+- [ ]  Understand and be able to get involved with mining
+- [ ]  Be able to teach others about Bitcoin
+
+**Weekly Outcomes:**
+
+*what outcomes for student success do we need to see every week?*
+
+**Proficiencies & skills:** 
+
+What proficiencies and skills will students acquire by the end of this project? Imagine you are writing a resume for a student after they go through this course - what are the actionable skills you would list? List up to 20.* 
+
+
