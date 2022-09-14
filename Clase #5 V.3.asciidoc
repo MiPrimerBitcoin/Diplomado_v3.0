@@ -97,18 +97,18 @@ Riesgos:
 - Una de las formas más seguras pero extremadamente ineficiente de almacenar BTC,
 - Es necesario copiar una nueva clave privada cada vez que se realice una transacción
 
-- **Monederos calientes (software)**:
+**Monederos calientes (software)**:
     - Conectadas al internet
     - Se puede instalar y/o acceder a través de una aplicación en el móvil o vía web.
         
-        **Monederos móvil**
+**Monederos móvil**
         
         - Portable y conveniente; ideal cuando se hacen transacciones cara a cara
         - Los mercados de aplicaciones los podrían eliminar sin preaviso
         - Si el dispositivo se daña o se pierde, puede ser difícil recuperar los fondos
         - Ideales para usar con códigos QR
         
-        **Monederos de escritorio**
+**Monederos de escritorio**
         
         - Los usuarios pueden tener control completo sobre los fondos
         - Algunos ofrecen soporte a monederos fríos
