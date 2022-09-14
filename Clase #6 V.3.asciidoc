@@ -1,10 +1,11 @@
 # Bitcoin cómo Depósito de Valor y cómo Red de Pagos
 
-- **El doble gasto:** Cuando alguien envía la misma “moneda” dos veces.
-- EJEMPLO:
+- **El doble gasto:** 
+Cuando alguien envía la misma “moneda” dos veces.
+- EJEMPLO
+
     - Digamos que Sarah les debe a Bill y a Tom 0.2 BTC, pero tiene exactamente 0.2 BTC en su billetera. Ella crea dos transacciones simultáneas en las cuales le manda 0.2 BTC a Bill y también 0.2 BTC a Tom. Es como si hubiera escrito un correo electrónico en el que declara su amor y se lo hubiese mandado simultáneamente a dos personas.
     
-    ![CA02E4C9-212D-473F-8341-2BD854847F02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1318a7f-318b-4845-9c74-829aa8c90c87/CA02E4C9-212D-473F-8341-2BD854847F02.png)
     
     - ¡Las dos transacciones no van a ser confirmadas por la red! Eso sería un ejemplo de un doble gasto. Pero si tenemos un sistema en el que ningún computador está a cargo, ¿cómo se hace para decidir cuál transacción se rechaza y cuál queda escrita permanentemente en la cadena? Bitcoin usa un proceso llamado **minería**.
 
@@ -63,8 +64,6 @@ Día #3 (Raquel estuvo de buenas, pero le da miedo volver a McDonalds)
 - Dos nodos diferentes reciben las dos transacciones
     - Recordemos que Raquel tenía sólo 0.2 BTC en su monedero para gastar.
 
-![CA02E4C9-212D-473F-8341-2BD854847F02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1318a7f-318b-4845-9c74-829aa8c90c87/CA02E4C9-212D-473F-8341-2BD854847F02.png)
-
 - ¡Los nodos de la red se dan cuenta y una de las dos transacciones se rechaza!
 - Pero cómo?  Si tenemos un sistema en el que ningún computador está a cargo, ¿cómo se hace para decidir cuál transacción se rechaza y cuál queda escrita inalteradamente en la cadena de bloques?
 
@@ -89,14 +88,9 @@ Día #3 (Raquel estuvo de buenas, pero le da miedo volver a McDonalds)
     - propagar transacciones verificadas a los nodos vecinos
     - rechazar transacciones inválidas
 
-> Aquí [https://dailyblockchain.github.io/](https://dailyblockchain.github.io/) se puede observar cómo se dispersan rápidamente las transacciones válidas de nodo a nodo.
-> 
+> Aquí https://dailyblockchain.github.io/  se puede observar cómo se dispersan rápidamente las transacciones válidas de nodo a nodo.
+ 
 
-![C1A93504-47FD-48CB-99A7-CD988068544E.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8e50112-ec42-4d45-b69f-63aebbcd062d/C1A93504-47FD-48CB-99A7-CD988068544E.jpeg)
-
-.
-
-![D8C7E7FD-41E3-40F2-92FF-F41380B86236.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b7dfe281-7264-446b-b57f-ea3702edf153/D8C7E7FD-41E3-40F2-92FF-F41380B86236.png)
 
 - Los nodos deben decidir si las transacciones son válidas o no
     - Si son aceptadas,
@@ -117,9 +111,9 @@ La mempool proporciona una capa adicional de seguridad y resistencia contra *at
 
 ## Actividad-Transacciones Verificadas pero no Confirmadas
 
-[https://bits.monospace.live/](https://bits.monospace.live/)
+https://bits.monospace.live/
 
-[https://chainflyer.bitflyer.jp/](https://chainflyer.bitflyer.jp/)
+https://chainflyer.bitflyer.jp/
 
 A continuación podemos ver una transacción real sin confirmar:
 
@@ -151,7 +145,6 @@ Podríamos analizar otra u otras transacciones?
         - Se comunican entre sí a través del ciberespacio convirtiéndolos en una red.
             - Cada uno de los cuales ejecuta su propia versión del software Bitcoin.
 
-![C8407F1E-6058-4CA9-8EC6-55197A230F0D.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bd3bb9ae-e8b4-4f5f-841f-b32d604be95e/C8407F1E-6058-4CA9-8EC6-55197A230F0D.jpeg)
 
 Desde estos puntos de conexión se puede crear, enviar, y recibir información (i.e. transacciones)
 
@@ -167,7 +160,6 @@ Tienen autonomía de tomar sus propias decisiones, sin embargo, a través del co
 - Los nodos completos tienen tres funciones:
     1. **Compartir información (a sus nodos vecinos)**
 
-![241C1AA2-F1F1-4516-9B68-E9B214738313.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f8200ab-8f43-4b14-a87b-c2f4519bd013/241C1AA2-F1F1-4516-9B68-E9B214738313.jpeg)
 
 - [ ]  Hay dos tipos de transacciones que comparten los nodos:
     1. *Transacciones frescas*: 
@@ -182,13 +174,12 @@ b. *Transacciones confirmadas*:
 - transacciones que han sido "**confirmadas**" y escritas en un bloque.
 - Estas se agrupan y forman los bloques; no se comparten individualmente.
 
-![05435580-499A-4B0A-A118-424984E7F8E5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e04147ac-983a-4946-a6cd-8ee957bf34b1/05435580-499A-4B0A-A118-424984E7F8E5.png)
 
 1. **Guardar una copia de las transacciones confirmadas.** 
 - Mantienen una copia completa de todos los bloques en la cadena de bloque,
 - Cada **confirmación** reduce exponencialmente *e*l riesgo de que la transacción sea revertida .
 
-[https://mempool.space/](https://mempool.space/) (Los bloques morados -debajo están todas las transacciones)
+https://mempool.space/ (Los bloques morados -debajo están todas las transacciones)
 
 1. **Validar los bloques y llegar a un consenso con los otros nodos.** 
 - Todos los nodos participantes deben aceptar unánimemente la información que contiene un bloque entero antes de incluirlo en la cadena de bloques.
@@ -201,7 +192,7 @@ El estatus de sus transacciones frescas y confirmadas se pueden localizar en la 
 
 **Actividad**:    Exploremos uno de ellos:
 
-  [https://www.blockchain.com/explorer?view=btc](https://www.blockchain.com/explorer?view=btc)
+  https://www.blockchain.com/explorer?view=btc
 
 Vamos al link de Bitcoin donde podemos observar: 
 
@@ -241,12 +232,8 @@ Software original creado por Satoshi Nakamoto-
     - conocer el historial de transacciones y los propietarios de cada bitcoin.
     
 
-![275409F5-D1C2-48C1-8A24-D81D187782A8.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/899c324a-befe-4441-bf3e-126964b8cae2/275409F5-D1C2-48C1-8A24-D81D187782A8.jpeg)
-
-<aside>
 💡 **Código fuente abierto:** Cualquier persona puede ver, **proponer cambios**, **modificar** y distribuir como mejor le parezca. Es comparable a ir a un restaurante y tener acceso a las recetas de tus comidas favoritas (el código)… pero luego puedes hacerlas y agregar o quitar cualquier ingrediente que desees y perfeccionarlas.
 
-</aside>
 
 - Decenas de expertos en software y criptografía, trabajan en su mantenimiento y mejora.
 - Quien propone una actualización en el software,
@@ -273,7 +260,7 @@ Ahí es donde la magia de las *soluciones de **capa dos*,** como **Lightning**, 
 - Con Lightning Network, Bitcoin tiene el potencial de ser la moneda de la era digital…
     - rápida, inmutable y descentralizada.
 
-[](https://youtu.be/lD8WQbS8-T8)
+https://youtu.be/lD8WQbS8-T8
 
 - **Lightning**, es un conjunto de reglas (contratos inteligentes), construido encima de Bitcoin,
     - que permite transacciones instantáneas,
@@ -286,9 +273,7 @@ Ahí es donde la magia de las *soluciones de **capa dos*,** como **Lightning**, 
     - Ofrece más privacidad.
     - Lightning aborda los problemas de escalabilidad de Bitcoin.
 
-![C9B5B8D1-B123-44EC-A8EB-6A6469716195.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/868d60ee-10c8-4057-92c4-d339c2feb8f3/C9B5B8D1-B123-44EC-A8EB-6A6469716195.jpeg)
 
-![020D5B6F-9585-4342-BB90-980201F80E5D.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59d749c0-f996-4a29-a3e5-8812a8fb3030/020D5B6F-9585-4342-BB90-980201F80E5D.jpeg)
 
 **Analogía:**
 
@@ -332,24 +317,21 @@ Ahí es donde la magia de las *soluciones de **capa dos*,** como **Lightning**, 
 
 Mira una visualización:
 
-[https://lnrouter.app/graph/zero-base-fee](https://lnrouter.app/graph/zero-base-fee)
+https://lnrouter.app/graph/zero-base-fee
 
 - Si A tiene un canal abierto con B y B tiene un canal abierto con C, A puede enviar BTC a C a través de B sin necesidad de confiar o conocer a B.
-
-![C131F0B2-C21A-4781-B9FB-B130227C8219.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4cf7a6a3-9e2a-48a5-b1e9-9072c8cccd6d/C131F0B2-C21A-4781-B9FB-B130227C8219.jpeg)
 
 Actividad:
 
 Miremos un simulador:
-
-[https://www.robtex.com/lnemulator.html?conf=A5-5B,B5-5C&send=A2C](https://www.robtex.com/lnemulator.html?conf=A5-5B,B5-5C&send=A2C)
+https://www.robtex.com/lnemulator.html?conf=A5-5B,B5-5C&send=A2C
 
 - El uso de Lightning es tan barato y rápido como el envío de un correo electrónico
     - con el beneficio adicional de la naturaleza segura y sin confianza de Bitcoin.
         - Sólo las dos personas que mantienen dinero en un canal abierto saben
             - cuánto, qué tan a menudo y cuándo se mueve ese dinero.
 
-![98FEF856-2723-4CAC-B806-6DAB0F7D1707.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/274ab51e-c5f8-445e-9625-e2638e52a44a/98FEF856-2723-4CAC-B806-6DAB0F7D1707.png)
+
 
 - En comparación, si se hacen 3 transacciones “en cadena”, es decir,
     - se quedan en la  capa base,
@@ -357,5 +339,5 @@ Miremos un simulador:
 - Cada una de estas transacciones tendría que involucrar a todos los participantes de la red
     - Se podría visualizar de la siguiente manera:
     
-    ![D7918912-E128-4DE0-9EB0-E409743D5C76.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/69cafdb0-c036-43b1-985e-2d00dbc1b459/D7918912-E128-4DE0-9EB0-E409743D5C76.jpeg)
+   
 
