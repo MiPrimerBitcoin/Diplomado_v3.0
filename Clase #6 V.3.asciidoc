@@ -190,9 +190,11 @@ El estatus de sus transacciones frescas y confirmadas se pueden localizar en la 
 - Los exploradores de bloques son una ventana a todas las transacciones cadena de bloques
 - Permiten comprobar el saldo de cada dirección, ver los detalles de cada transacción y más
 
-**Actividad**:    Exploremos uno de ellos:
+**Actividad**:    
 
-  https://www.blockchain.com/explorer?view=btc
+Exploremos uno de ellos:
+
+https://www.blockchain.com/explorer?view=btc
 
 Vamos al link de Bitcoin donde podemos observar: 
 
