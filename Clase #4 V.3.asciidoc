@@ -1,4 +1,4 @@
-### **CLASE #4 - BITCOIN**
+### **CLASE #*4* - BITCOIN**
 
 **¿Por qué se creó Bitcoin?**
 
@@ -19,7 +19,6 @@ El ataque en el 2001 a las Torres Gemelas de Nueva York fue un golpe durísimo p
 
 - Con el uso de una tecnología desarrollada en 1991,
 
-![779AC307-A238-44F4-B9D6-DD9B289ADBDE.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7af967d6-bfe4-498e-8bab-872cbdd774c0/779AC307-A238-44F4-B9D6-DD9B289ADBDE.jpeg)
 
 **¿Quién los solucionó?**
 
@@ -35,7 +34,7 @@ El ataque en el 2001 a las Torres Gemelas de Nueva York fue un golpe durísimo p
         - un grupo muy activo con discusiones técnicas
             - abarcaban matemáticas, criptografía, ciencias de la computación, discusiones políticas y filosóficas e incluso argumentos personales.
 
-(https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf)
+https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf
 
 - Satoshi tenía cinismo hacia el sistema monetario y bancario tradicional.
     - Esto se puede ver en el **bloque génesis,** donde publicó un mensaje que decía:
@@ -49,10 +48,6 @@ El ataque en el 2001 a las Torres Gemelas de Nueva York fue un golpe durísimo p
 - Canciller británico debía decidir si inyectar billones de Libras Esterlinas más en la economía con el fin de rescatar a los bancos.
 
 Estos son otros datos básicos que sabemos sobre Satoshi, su Whitepaper y la creación de Bitcoin:
-
-![7355C980-8DFC-49AD-8295-15C24FC70899.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9b7d9f28-b682-4e13-848b-0c16be6cba7a/7355C980-8DFC-49AD-8295-15C24FC70899.png)
-
- 
 
 - La primera transacción de bitcoins fue de Nakamoto a Hal Finney.
 - La última “señal de vida” de Satoshi fue con Gavin Andersen, desarrollador de software:
@@ -91,7 +86,6 @@ Cuál es la alegoría?
     - [ ]  Por ejemplo, le podría decir a un general que ataque y al otro que se retire.
 - [ ]  Una mañana, un general  recibe el siguiente mensaje: "El ataque se producirá el Martes". ****No lleva la firma de ninguna autoridad central.
 
-![7D301458-68A4-47CF-995D-2146E3BC07AD.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80e674cc-690c-45e8-93b5-5d59a4e3e325/7D301458-68A4-47CF-995D-2146E3BC07AD.jpeg)
 
  ¿Cómo puede el general  tener la certeza de que se trata de una orden verdadera y no de un engaño del enemigo transmitiendo información contraria a la estrategia del ejército?
 
@@ -138,7 +132,7 @@ En el marco de las cadenas de bloques, cada General es un **nodo en la red**,
 
 Comencemos con un video breve:
 
-[¿Qué es Bitcoin y cómo funciona?](https://youtu.be/S2HxMK7iO4c)
+¿Qué es Bitcoin y cómo funciona? https://youtu.be/S2HxMK7iO4c
 
 ¿Qué es Bitcoin? ¿Qué es bitcoin?…..
 
@@ -149,7 +143,6 @@ Es muchas cosas….
     - Un **sistema de pago** sin un banco central o una autoridad única.
 - **Red**: Conjunto de personas y computadores trabajando a través del consenso para funcionar sin falla.
     
-    ![852B583E-ECCD-478F-A08A-E436161029B8.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f057092f-178d-40a0-8f4c-dce3cc5491f5/852B583E-ECCD-478F-A08A-E436161029B8.jpeg)
     
     - Cual es la diferencia entre Bitcoin y bitcoin?
         - Bitcoin con ‘B’ se refiere a la **red** de computadores que trabaja con el mismo programa, mientras *bitcoin* con ‘b’ se refiere a el activo digital ($) que se maneja dentro de la red.  Dicho de otra forma, bitcoin es una unidad de la moneda virtual cifrada mediante criptografía, que nos sirve para intercambiar valor dentro de la red Bitcoin.
@@ -161,13 +154,11 @@ Es muchas cosas….
     - Elimina la necesidad de una autoridad central para supervisar las transacciones.
 - Que lo hace valioso?
     
-    ![EE540381-E3F7-4CF5-B809-670D387BF980.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a80eb4ae-b396-46d2-ac9d-392ebf3d2b4a/EE540381-E3F7-4CF5-B809-670D387BF980.jpeg)
     
 - Cual es la relación entre la cadena de bloques y Bitcoin?
     - La cadena de bloques es el libro público donde se registran de forma permanente las transacciones más importantes de Bitcoin.
     - Bitcoin es la única cadena de bloques que registra transacciones realizadas con la moneda bitcoin.
     
-    ![1FC75ED5-ABE2-4614-8452-F37A09BAAD46.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/049dd3f0-c108-4db0-a99e-799e734c9b30/1FC75ED5-ABE2-4614-8452-F37A09BAAD46.png)
     
 - De qué  están hechos los *bitcoin*?
     - De nada que se pueda tocar físicamente, como un billete.
@@ -202,16 +193,15 @@ Es muchas cosas….
     - Su inflación es controlada y su emisión predefinida.
     - Los gobiernos no tienen poder de decisión sobre su gobernanza.
     
-    ![D55EB564-98A5-454B-B0FD-CEF5FB1C2FEE.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1e9b5e3-873a-46a6-91df-fd900e3b62d2/D55EB564-98A5-454B-B0FD-CEF5FB1C2FEE.jpeg)
-    
+   
 
-*
 
-[Diferencias entre Bitcoin y Fiat](https://www.notion.so/62efd4159a5441bd9216b08434c3937d)
+
+Diferencias entre Bitcoin y Fiat 
 
 **Actividad: Completar 2.c (la columna de bitcoin)**
 
-Ejercicio Práctico (continuación de [Es un Buen Activo Monetario?](https://www.notion.so/84740d4f57bd499996960e442b47157b))
+Ejercicio Práctico (continuación de [Es un Buen Activo Monetario?]
 
 Si tuviste dificultades con el ejercicio anterior, repasa la tabla “Diferencias entre Bitcoin y Fiat”.
 
@@ -226,7 +216,6 @@ Para entender cómo participa alguien o un sistema en la red Bitcoin, nos debemo
 - ¿Cómo interactúa con la red?
 - ¿Tiene acceso a una copia de toda la cadena?
 
-![3.3 (Bitcoin Descentralizado).jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5bced30-31cf-49d7-8030-c62fc4178575/3.3_(Bitcoin_Descentralizado).jpg)
 
 1. **Mineros**: Equipos de computación especializados 
     - Compiten en resolver rompecabezas matemáticos entre sí, para crear nuevos bitcoins.
@@ -242,7 +231,6 @@ Para entender cómo participa alguien o un sistema en la red Bitcoin, nos debemo
         - El hardware es el material físico necesario para ejecutar el software.
 - **Desarrolladores**: Mantienen y proponen mejoras al código.
 
-![D62EFA31-45B8-4EEB-B88C-03DE0544006B.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ed99160-a5c8-4d3d-8c82-bdaacc99bfdc/D62EFA31-45B8-4EEB-B88C-03DE0544006B.jpeg)
 
 Actividad: Si tenemos tiempo en clase, podemos acceder algunos exchanges?
 
