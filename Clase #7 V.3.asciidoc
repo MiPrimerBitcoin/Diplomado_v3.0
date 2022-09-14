@@ -57,7 +57,6 @@ De nuevo volvamos a una analogía:
     - Se le aplican operaciones matemáticas (suma, resta, multiplicación, etc.) predefinidas,
     - El resultado es una *salida*, **f(x),y.**
 
-![66ADABCB-38D9-4505-BD7A-84A97EEE4D47.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d43be600-16db-4ef1-8674-7484ac5918a7/66ADABCB-38D9-4505-BD7A-84A97EEE4D47.jpeg)
 
 Ejemplo:  f(x)=3x+4 me dice: 
 
@@ -94,18 +93,17 @@ Es casi imposible que otra persona descifre cuales son sus ingredientes y porcio
 - Una función **hash** criptográfica:
     - es una operación criptográfica que toma cualquier cantidad de datos,
     - Y devuelve un valor hash, de identificadores
-        - **únicos** e **irrepetibles**, ****determinísticos**** y **caóticos**
+    - **únicos** e **irrepetibles**, ****determinísticos**** y **caóticos**
 
-![DBDB2CA5-BD9E-4B07-B1D1-C2459A3FCA61.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/96968a95-8cd9-413d-87b0-350dc5e8c457/DBDB2CA5-BD9E-4B07-B1D1-C2459A3FCA61.png)
 
 - No existen restricciones en los datos de entrada,
     - el *hash* siempre resulta en la misma longitud de caracteres
     - El hash también se considera como una huella digital de los datos de entrada
     
-    <aside>
-    💡 D****eterminístico:**** las mismas entradas o iniciales producirán invariablemente las mismas salidas o resultados                                                                                                 **Caótico:**  una entrada ligeramente diferente producirá una salida completamente diferente y no relacionada
     
-    </aside>
+    💡 **Determinístico:** las mismas entradas o iniciales producirán invariablemente las mismas salidas o resultados                                          **Caótico:**  una entrada ligeramente diferente producirá una salida completamente diferente y no relacionada
+    
+    
     
 
 ***Qué es SHA 256?***
@@ -132,9 +130,9 @@ SHA256(Hola, me llamo Dalia. Soy de Medellín, Colombia.)=
 
 Cómo crear un hash? En los siguientes sitio web podremos practicarlo:
 
- [https://hashgenerator.de/](https://hashgenerator.de/) 
+https://hashgenerator.de/ 
 
-[https://emn178.github.io/online-tools/sha256.html](https://emn178.github.io/online-tools/sha256.html)
+https://emn178.github.io/online-tools/sha256.html
 
 Primero, qué pasa cuando ingresas el hash 256 de Dalia? Compáralo con el que está escrito aquí. 
 
@@ -175,8 +173,7 @@ Una estructura de datos dividida en varias capas de hashes que permite verificar
 - Su raíz única final, que contiene toda la información de todas las transacciones,
     - se denomina **Merkle Root o Raíz de Merkle Root**
         
-        ![6344DEAE-3DF7-47CB-B76C-15B5AE5B4FD3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/448d132e-2747-4036-9b2d-69504a7fa2dd/6344DEAE-3DF7-47CB-B76C-15B5AE5B4FD3.png)
-        
+    
     
 
 # La Minería
@@ -191,9 +188,6 @@ C*uales transacciones deben escoger para su “bloque candidato”?*
 - Eligen aquellas con mayores incentivos monetarios y que ocupen menos memoria.
     - Los depositantes agregan comisiones (o propinas) para incentivar a los mineros
     - Adicionalmente, los mineros están motivados a trabajar honradamente.
-    
-    ![EFA3DB97-2D27-4962-AB91-FB1EE5C2C3EF.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a65794b0-3aed-4403-b24b-fda432778b39/EFA3DB97-2D27-4962-AB91-FB1EE5C2C3EF.png)
-    
 - Entre más transacciones hayan en la mempool, más congestionada la red.
     - Los incentivos monetarios generalmente son mayores cuando hay mucho tráfico
 - Durante mucho tráfico, los mineros eligen transacciones que tienen comisiones más altas.
@@ -228,8 +222,6 @@ C*uales transacciones deben escoger para su “bloque candidato”?*
 - Esto significa que cualquier nodo minero en la red puede extraer un nuevo bloque,
     - pero necesita gastar energía para poder hacerlo.
 
-![BFFB4008-A8D8-4AA8-A4DC-513F168706FA.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4c9fe730-343c-48a2-9c7d-5c633545ea19/BFFB4008-A8D8-4AA8-A4DC-513F168706FA.webp)
-
 *Qué pasa cuando se encuentra el “hash ganador”?*
 
 - Un minero afortunado, finalmente produce el hash ganador,
@@ -243,8 +235,7 @@ C*uales transacciones deben escoger para su “bloque candidato”?*
 - El proceso se repetirá aproximadamente cada 10 minutos
     - los mineros comenzarán a intentar extraer un nuevo bloque encima.
     
-    ![F1FA094A-4502-43F3-9461-BE2868FE53FE.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8961bed8-2768-4429-95c6-1affd813be28/F1FA094A-4502-43F3-9461-BE2868FE53FE.png)
-    
+ 
 
 *Y como se gana la recompensa el minero que ha encontrado el valor objetivo?*
 
@@ -266,7 +257,7 @@ C*uales transacciones deben escoger para su “bloque candidato”?*
 - Se recomienda esperar un mínimo de 6 confirmaciones para asegurarse de que los fondos fueron transferidos.
 - Bitcoin es conocida como la **blockchain** más segura y veraz que existe.
     
-    ![CEE410BA-C18D-4C93-A576-11058B6B171C.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d82375dc-0ff1-48c1-a168-2431b6e7d46a/CEE410BA-C18D-4C93-A576-11058B6B171C.png)
+ 
     
 
 ## El Hash del Bloque**:**
@@ -282,7 +273,6 @@ C*uales transacciones deben escoger para su “bloque candidato”?*
     - se creará una cascada de fallas en la verificación de bloques posteriores.
 - Esto se debe a que cada bloque tiene información sobre el anterior.
 
-![BBF6C88F-B863-49B6-980B-03D3ED72DBEB.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fa79b09-7d4e-4048-9bb0-3aa1c6f42d5e/BBF6C88F-B863-49B6-980B-03D3ED72DBEB.jpeg)
 
 Los bloques se componen de una cabecera de bloque y sus transacciones. 
 
@@ -294,14 +284,11 @@ Los bloques se componen de una cabecera de bloque y sus transacciones.
 - Mediante la función SHA256, se comprime toda la información contenida en el bloque.
     - Este resultado es el “hash del bloque” o  representant su “huella digital”.
 
-![41585F9B-0A10-4E04-AD23-08CF1CB6160C.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/467f1f8b-059d-4fad-a630-cbafa61a123c/41585F9B-0A10-4E04-AD23-08CF1CB6160C.png)
 
 ### El Nonce del Bloque
 
 - El **nonce** un campo es un número dentro de la cabecera:
     - Los mineros lo **modifican hasta que**  el **hash de la cabecera** resulte en el **objetivo de dificultad o el valor objetivo**
-    
-    ![5D083894-1181-4BCF-A722-A44175065618.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d71f29d-0b2d-40d2-8ba8-2a8eae8326e2/5D083894-1181-4BCF-A722-A44175065618.gif)
     
 - El **objetivo de dificultad** siempre comienza con una cantidad de ceros.
     - La cantidad de ceros es variable.
@@ -311,11 +298,11 @@ Los bloques se componen de una cabecera de bloque y sus transacciones.
 
 En el siguiente link se puede analizar la cadena de bloques en tiempo real.
 
-[https://explorer.bit2me.com/home](https://explorer.bit2me.com/home)  
+https://explorer.bit2me.com/home  
 
-[https://bits.monospace.live/block/height/746043](https://bits.monospace.live/block/height/746043)
+https://bits.monospace.live/block/height/746043
 
-**Visualización** de los últimos bloques, las transacciones confirmadas y sin confirmar, el número de transacciones, utilización de memoria y valor aproximado del bloque completo,  [https://bits.monospace.live/](https://bits.monospace.live/)
+**Visualización** de los últimos bloques, las transacciones confirmadas y sin confirmar, el número de transacciones, utilización de memoria y valor aproximado del bloque completo,  https://bits.monospace.live/
 
 Cual fue el último bloque minado?
 
