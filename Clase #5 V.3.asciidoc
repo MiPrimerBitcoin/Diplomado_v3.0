@@ -22,8 +22,6 @@
 - 1 BTC = 100,000,000 sats ≈ 0.0003 USD (hoy)
 - Esto quiere decir que un bitcoin se puede dividir en cien millones de unidades.
 
-![AA7BC248-1E5C-4621-9599-4885C65099C7.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/655c0761-c271-428c-9520-d09e750fcc60/AA7BC248-1E5C-4621-9599-4885C65099C7.jpeg)
-
 **Sesgo de unidad:**   Falsa creencia **….**
 
 - No se tiene que comprar 1 bitcoin entero; podemos comprar cuantos Sats queramos.
@@ -80,13 +78,12 @@ Riesgos:
     - Beneficio: si pierdes u olvidas el acceso a tu cuenta, se recupera el dinero fácilmente
     - Riesgo: siempre conectados al internet, lo que los hace más vulnerables.
 
-![A252B968-AC3F-489A-82E3-1BBE60AECBB3.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef176fcc-375a-4cb8-a2ab-258724ec131d/A252B968-AC3F-489A-82E3-1BBE60AECBB3.png)
 
 ## Cual es el monedero mas conveniente?
 
 - **Monederos fríos**
 
-H**ardware**: 
+**Hardware**: 
 
 - Monederos “no conectados”, ya que, como su nombre lo indica, no requieren internet.
 - Los monederos más seguros en existencia.
@@ -118,10 +115,9 @@ H**ardware**:
         - Difícil de utilizar códigos QR al realizar transacciones
         - Susceptible a los virus que roban bitcoins
 
-- **Arquitectura de los monederos de Bitcoin**
+**Arquitectura de los monederos de Bitcoin**
     
-    ![DA703F99-75E4-4531-ADFE-1EF3A6A15844.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e279b393-fd1b-431b-b9ce-282790f61378/DA703F99-75E4-4531-ADFE-1EF3A6A15844.png)
-    
+ 
 
 ### Como envio/recibo satoshis?
 
@@ -152,9 +148,7 @@ Lo que se envía y se guarda a través del protocolo Bitcioin es bitcoin, no son
 - A esta transferencia de dinero es lo que se le llama una transacción.
 - Un traspaso de valor entre dos monederos, el cual queda grabado en la blockchain (Bitcoin).
 
-![97C006D6-F550-4DED-9514-BE8E77AE7B93.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80cb5ee3-f3d9-43cc-8659-f52b46c9bbea/97C006D6-F550-4DED-9514-BE8E77AE7B93.jpeg)
 
-.
 
 Cuando una nueva transacción ingresa a la red, 
 
@@ -176,7 +170,6 @@ Una transacción a través de un monedero se asemeja al siguiente proceso:
     - todas con diferente cantidad de BTC, pero completamente transparentes.
     - Cualquiera pudiese ver cuanto bitcoin hay en cada caja y el historial de cómo llegó allí
 
-![3670A948-00C3-4A4E-9A2F-291967088252.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2487869-32c9-41bc-926b-7488911b336d/3670A948-00C3-4A4E-9A2F-291967088252.jpeg)
 
 - Cada caja tiene una **dirección** perteneciente a un sólo dueño,
 - Esta está protegida con un candado de seguridad, el cual necesita dos llaves diferentes
@@ -188,19 +181,18 @@ Una transacción a través de un monedero se asemeja al siguiente proceso:
     - pero antes, tomando en cuenta que existen miles y miles de cajas,
         - necesita una dirección exacta, para garatizar que se va a depositar el BTC  a la caja correcta.
     
-    ![D6AB956E-5D85-4249-ADE1-14D4C8A2F2B9.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09283793-3f60-4acc-bd1d-df2f16b698d9/D6AB956E-5D85-4249-ADE1-14D4C8A2F2B9.jpeg)
+
     
     - Por último, cerrar el candado de caja fuerte con la llave pública del recipiente
         - para que nadie, fuera del destinatario, tenga acceso a dicho bitcoin
 - En el futuro, la caja sólo se podrá abrir con la llave privada de quién recibió el BTC.
 
-![EDB510AA-30F8-45DF-963F-0353BAFAA6E7.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e4e288c-4dee-406e-9f76-b637fc04ae21/EDB510AA-30F8-45DF-963F-0353BAFAA6E7.jpeg)
 
-## C**ómo funciona una transacción paso a paso?**
+## **Cómo funciona una transacción paso a paso?**
 
 El éxito de transferir dinero en una red descentralizada solo se logró bajo la premisa que cada transacción es única y reconocible.   
 
-![F2A097BC-3467-41A3-8B43-52E6AB48E033.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/26e75e16-0eb8-40eb-a03c-a87d16b0cd0b/F2A097BC-3467-41A3-8B43-52E6AB48E033.png)
+
 
 Supongamos que Marc va a enviar 0.5 bitcoin a su hermano Roby. Ambos tienen monederos.
 
@@ -282,13 +274,7 @@ Visualicemos cómo se **confirma** una transacción:
     - El nodo confirma que si había suficiente bitcoin apuntando a la dirección original  (0.5 BTC en el monedero de Marc) para ejecutar la transacción
     - Cuando se confirma la transacción, se ha repartido cierta cantidad de bitcoin a dos direcciones diferentes.
     - Algunas cajas ahora tienen más bitcoin (la de Roby), y la original, menos….o nada.
-        
-        ![B1DAEFB0-7112-4ED8-B1F6-FD419668C0E1.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f3eb225-c352-4bbc-ade4-caebd6e3cccc/B1DAEFB0-7112-4ED8-B1F6-FD419668C0E1.jpeg)
-        
-
  
-
-![4C1AB641-C897-4A2E-86D3-581093C5BC75.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f90b7fe-cd18-4da3-936d-614d5571f190/4C1AB641-C897-4A2E-86D3-581093C5BC75.png)
 
 Después de haber confirmado la transferencia, la blockchain solo se encargará de monitorear los monederos que recibieron dinero, el de 1.5BTC, y el de 0.5BTC. 
 
