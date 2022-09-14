@@ -89,7 +89,7 @@ Para entender mejor esto, aquí hay algunos términos importantes que debemos de
 - El valor de mercado total del suministro circulante de Bitcoin reflejado en monedas fiat
 - Multiplicar el precio actual de un bitcoin (en USD) por la oferta circulante.
     
-    **Capitalización de mercado = precio actual x suministro circulante.**
+**Capitalización de mercado = precio actual x suministro circulante.**
     
 
 Podemos ir a *mMarketcap* https://coinmarketcap.com/currencies/bitcoin/ y calcular la capitalización de mercado actual.
@@ -113,12 +113,11 @@ Capital.com Research Team https://capital.com/de/capital-research-team, *08:00 (
     - por supuesto que se espera volatilidad en su precio, no obstante,
         - Su precio ha tenido al alza desde su creación
     
-    CBBI - Colin Talks Crypto Bitcoin Bull Run Index - BTC Price Evaluation https://colintalkscrypto.com/cbbi/
+CBBI - Colin Talks Crypto Bitcoin Bull Run Index - BTC Price Evaluation https://colintalkscrypto.com/cbbi/
     
-
-- Los factores que determinan el precio de bitcoin se pueden analizar a mediano y largo plazo.
+**Los factores que determinan el precio de bitcoin se pueden analizar a mediano y largo plazo.**
     
-    M**ediano plazo:**
+    **Mediano plazo:**
     
     - ***Comercio diario**:*
     - A diferencia de otros mercados financieros, opera 24 horas al día, 7 días de la semana.
