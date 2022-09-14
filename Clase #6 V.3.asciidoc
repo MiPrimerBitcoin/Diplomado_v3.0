@@ -88,7 +88,7 @@ Día #3 (Raquel estuvo de buenas, pero le da miedo volver a McDonalds)
     - propagar transacciones verificadas a los nodos vecinos
     - rechazar transacciones inválidas
 
-> Aquí https://dailyblockchain.github.io/  se puede observar cómo se dispersan rápidamente las transacciones válidas de nodo a nodo.
+Aquí https://dailyblockchain.github.io/  se puede observar cómo se dispersan rápidamente las transacciones válidas de nodo a nodo.
  
 
 
