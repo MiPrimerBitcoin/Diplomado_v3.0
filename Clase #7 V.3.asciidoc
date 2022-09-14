@@ -101,7 +101,9 @@ Es casi imposible que otra persona descifre cuales son sus ingredientes y porcio
     - El hash también se considera como una huella digital de los datos de entrada
     
     
-    💡 **Determinístico:** las mismas entradas o iniciales producirán invariablemente las mismas salidas o resultados                                          **Caótico:**  una entrada ligeramente diferente producirá una salida completamente diferente y no relacionada
+💡 **Determinístico:** las mismas entradas o iniciales producirán invariablemente las mismas salidas o resultados. 
+
+💡 **Caótico:** una entrada ligeramente diferente producirá una salida completamente diferente y no relacionada.
     
     
     
