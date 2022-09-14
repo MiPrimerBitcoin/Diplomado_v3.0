@@ -81,10 +81,9 @@ La mayoría de los monederos más seguros proporcionan
 - Es una lista generada por el monedero aleatoriamente de 12 a 24 palabras
     - Nadie más en el mundo ha visto jamás.
     - Es la clave única que permite acceder el bitcoin del usuario en cualquier dispositivo
-    - Se usa para como génesis para crear cada una de las **claves privadas**.
-- [https://learnmeabitcoin.com/technical/mnemonic](https://learnmeabitcoin.com/technical/mnemonic)
+    - Se usa para como génesis para crear cada una de las **claves privadas**. 
+    - (https://learnmeabitcoin.com/technical/mnemonic)
 
-![2E1E410F-79E8-42C5-9616-414B003D869C.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/20cc84c3-1746-41c6-9156-2c74190baf39/2E1E410F-79E8-42C5-9616-414B003D869C.jpeg)
 
 - Cada **clave privada** genera una **clave pública,**
 - Cada **clave pública** nos permite **firmar** digitalmente una **transacción**.
@@ -100,9 +99,9 @@ Entremos en detalle:
     - Comparable con una contraseña  y debe mantenerse a salvo de cualquier tercero.
     - En caso de perder nuestro monedero-una forma de recuperar nuestro bitcoin.
         - A menos que se tengamos una “semilla”
-    - Las claves privadas son números completamente aleatorios y grandísimo entre 1 y `115792089237316195423570985008687907852837564279074904382605163141518161494336`
+    - Las claves privadas son números completamente aleatorios y grandísimo entre 1 y 115792089237316195423570985008687907852837564279074904382605163141518161494336
     
-    ![E3D4D1CA-A47F-43F0-A1CC-1178A9F29E5F.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff6eebff-34c6-461d-a3d9-d642fded8c38/E3D4D1CA-A47F-43F0-A1CC-1178A9F29E5F.png)
+ 
     
     - Cualquier clave privada se convierte a una estructura hexadecimal:
         - un número de 0-9, A-F, donde A=10, B=11, etc.
@@ -116,14 +115,14 @@ Entremos en detalle:
     - La operación es unidireccional- no se puede reversar
     - [https://learnmeabitcoin.com/technical/public-k](https://learnmeabitcoin.com/technical/public-key)ey
     
-    ![695BBE38-FD6E-4984-A07A-5D2BA9E074D5.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dab6fa09-8c41-4556-b76a-9420051eafca/695BBE38-FD6E-4984-A07A-5D2BA9E074D5.png)
+
     
 - Como medida de seguridad y para simplificar el resultado de la clave pública,
     - la clave pública pasa por una serie de funciones hash y resulta una **dirección**.
 - Al igual que un correo electrónico, la **dirección** se puede compartir con quien la solicite.
 - Apunta al sitio (o a la caja fuerte) donde se van a recibir los fondos.
 - No hay límite para la cantidad de direcciones que un usuario puede crear
-- [https://coinb.in/#newAddress](https://coinb.in/#newAddress)
+- (https://coinb.in/#newAddress)
 
 - **La Firma Digital:**
     - Se usa para demostrar que conocemos la clave privada sin revelarla públicamente.
@@ -131,12 +130,10 @@ Entremos en detalle:
     - Es única, irrepetible e imposible de falsificar.
     - Es obligatoria para desbloquear el bitcoin que el emisor va a trasladar.
 
-![D0FD6CB5-5DFB-4E57-B8E6-D7A6D55CCAD7.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/337b171e-026c-4562-830b-11ec3ddde359/D0FD6CB5-5DFB-4E57-B8E6-D7A6D55CCAD7.png)
 
-<aside>
 💡 Detengámonos un momento. Si un hacker intercepta tu transacción, crees que sea capaz de descifrar tu clave privada y robarte tus fondos?  Es decir, suponiendo que una persona maliciosa tenga acceso a la dirección a la cual vas a enviar bitcoin, crees que puede redirigirlo a su propia caja de seguridad?
 
-</aside>
+
 
 **Transacciones válidas  :**
 
@@ -149,6 +146,5 @@ El objetivo de una firma digital es poder demostrar que se es propietario de una
     - el hash de la firma automáticamente cambia, haciéndola falsa y obsoleta.
     - Es extremadamente fácil detectar las transacciones que se deben rechazar
 
-![F6E75232-AC43-4FB7-829F-983A14F4DCFE.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/48b0f120-8ee8-4c72-a9d6-8a4bdee6b8ad/F6E75232-AC43-4FB7-829F-983A14F4DCFE.png)
 
 Bitcoin es un protocolo brillante!
