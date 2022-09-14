@@ -6,7 +6,6 @@ El ataque en el 2001 a las Torres Gemelas de Nueva York fue un golpe durísimo p
 
  
 
-<aside>
 💡 **Los problemas a solucionar?**
 
 - La falta de soberanía individual,
@@ -19,7 +18,6 @@ El ataque en el 2001 a las Torres Gemelas de Nueva York fue un golpe durísimo p
 **Cómo se solucionaron?** 
 
 - Con el uso de una tecnología desarrollada en 1991,
-</aside>
 
 ![779AC307-A238-44F4-B9D6-DD9B289ADBDE.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7af967d6-bfe4-498e-8bab-872cbdd774c0/779AC307-A238-44F4-B9D6-DD9B289ADBDE.jpeg)
 
@@ -37,7 +35,7 @@ El ataque en el 2001 a las Torres Gemelas de Nueva York fue un golpe durísimo p
         - un grupo muy activo con discusiones técnicas
             - abarcaban matemáticas, criptografía, ciencias de la computación, discusiones políticas y filosóficas e incluso argumentos personales.
 
-[](https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf)
+(https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf)
 
 - Satoshi tenía cinismo hacia el sistema monetario y bancario tradicional.
     - Esto se puede ver en el **bloque génesis,** donde publicó un mensaje que decía:
