@@ -45,8 +45,6 @@ Con el fin de perseguir un modelo deflacionario,
 - Prevenir  la inflación
 - Añadir escasez natural
 
-![0793EFF6-E19A-45AB-AC9F-A66B331C237A.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f8727d3-2550-473a-b48a-c40f44b7cd03/0793EFF6-E19A-45AB-AC9F-A66B331C237A.jpeg)
-
 **Entonces, ¿por qué el cambio? ¿Por qué no mantener la recompensa igual? ¿No es eso injusto para los mineros?**
 
 *La respuesta a esa pregunta está en la ley de la oferta y la demanda.*
@@ -57,8 +55,6 @@ Con el fin de perseguir un modelo deflacionario,
     - es posible que unas pocas personas lo hayan acaparado,
     - nadie más hubiera tenido la oportunidad para acumularlo.
 - El siguiente gráfico ejemplifica cómo la reducción a la mitad afecta el precio a lo largo del tiempo:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bceb82db-473d-4064-8dc8-4fe00c63f429/Untitled.png)
 
 Fuente: www.bitcoincharts.com
 
@@ -96,7 +92,7 @@ Para entender mejor esto, aquí hay algunos términos importantes que debemos de
     **Capitalización de mercado = precio actual x suministro circulante.**
     
 
-Podemos ir a *m[arketcap](https://coinmarketcap.com/currencies/bitcoin/) y* calcular la capitalización de mercado actual.
+Podemos ir a *mMarketcap* https://coinmarketcap.com/currencies/bitcoin/ y calcular la capitalización de mercado actual.
 
 El siguiente gráfico muestra el precio de Bitcoin en los últimos 5 años. 
 
@@ -104,9 +100,10 @@ El siguiente gráfico muestra el precio de Bitcoin en los últimos 5 años.
     - Usando el eje X para el tiempo y Y para el precio en USD,
         - ¿Qué eventos mundiales podrían relacionarse con los cambios de precios? ****
 
-[https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR](https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR)
+https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR
 
-Fuente: [https://capit](https://capital.com/de/bitcoin-prognose)al.com/de/bitcoin-prognose, *Bitcoin, Will the Price of Bitcoin Rise or Fall?*, [Capital.com Research Team](https://capital.com/de/capital-research-team), *08:00 (UTC), 31 March 2022*
+Fuente: https://capital.com/de/bitcoin-prognose *Bitcoin, Will the Price of Bitcoin Rise or Fall?*, 
+Capital.com Research Team https://capital.com/de/capital-research-team, *08:00 (UTC), 31 March 2022*
 
 **Entonces, ¿qué factores determinan su precio? ¿Cómo se involucra la minería? ¿Cuándo afecta el halving al precio?**
 
@@ -116,7 +113,7 @@ Fuente: [https://capit](https://capital.com/de/bitcoin-prognose)al.com/de/bitcoi
     - por supuesto que se espera volatilidad en su precio, no obstante,
         - Su precio ha tenido al alza desde su creación
     
-    [CBBI - Colin Talks Crypto Bitcoin Bull Run Index - BTC Price Evaluation](https://colintalkscrypto.com/cbbi/)
+    CBBI - Colin Talks Crypto Bitcoin Bull Run Index - BTC Price Evaluation https://colintalkscrypto.com/cbbi/
     
 
 - Los factores que determinan el precio de bitcoin se pueden analizar a mediano y largo plazo.
@@ -154,21 +151,17 @@ Fuente: [https://capit](https://capital.com/de/bitcoin-prognose)al.com/de/bitcoi
         - Si todo el mundo lo comienza a usar, un proceso denominado *Hiperbitcoinización*
             - y por extensión, invierte más de su dinero en bitcoin,
                 - el precio subirá exponencialmente.
-        - *.*
-        
-        ![D9CF762B-FDC1-417F-8981-5B67DABC6421.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4f2bce5-12aa-4204-8263-869c5676bd1d/D9CF762B-FDC1-417F-8981-5B67DABC6421.png)
+       
         
     
-    Fuente: *U.S. dollar inflation visualized at the top versus bitcoin’s deflation at the bottom:* [Lark Davis @TheCryptoLar](https://twitter.com/TheCryptoLark/status/1415134942082699269/photo/1)k).
+    Fuente: *U.S. dollar inflation visualized at the top versus bitcoin’s deflation at the bottom:* [Lark Davis @TheCryptoLark https://twitter.com/TheCryptoLark/status/1415134942082699269/photo/1.
     
     - **El Efecto Lindy-**
         - Una teoría sobre el envejecimiento de las cosas no perecederas,
             - cuanto más antigua sea una idea o una tecnología,
                 - mayor será su esperanza de vida.
         - Las cosas no perecederas como la tecnología envejecen, linealmente, a la inversa.
-    
-    ![141B0032-7F97-4B2E-9539-F66AD0A7AD85.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b56392ad-7cd2-428a-be78-56eae2668394/141B0032-7F97-4B2E-9539-F66AD0A7AD85.png)
-    
+   
     - **Oferta limitada**: el hecho de que solo haya una cantidad finita de Bitcoin significa que no es posible diluir el sistema después de 2140.
     
     - El “gráfico arcoíris” usa una escala logarítmica para visualizar el precio de bitcoin.
@@ -178,24 +171,22 @@ Fuente: [https://capit](https://capital.com/de/bitcoin-prognose)al.com/de/bitcoi
     - Información valiosa para determinar estrategias de compra y venta.
     - Algunos inversionistas muy exitosos esperan pacientemente:
         - compran cuando el precio llegue a la zona azul/verde
-        - venden poco a poco, mientras el precio se acerca a la banda roja.[https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/](https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/)
+        - venden poco a poco, mientras el precio se acerca a la banda roja. https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/
         
-        ![5EE2F6B8-0B66-4458-A2FA-09B659C89BEA.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0ccaa05-5f39-40aa-848c-e5b74c130915/5EE2F6B8-0B66-4458-A2FA-09B659C89BEA.png)
         
 
-Fuente: [https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/](https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/)
+Fuente: https://www.blockchaincenter.net/en/bitcoin-rainbow-chart/
 
 Veamos en perspectiva, y a través de ciclos de cuatro años, el crecimiento en la capitalización de bitcoin en relación con la capitalización de otros activos monetarios globales. 
 
 **Espiral de activos cruzados. Capitalización de mercado #Bitcoin frente a #oro, #plata y bienes raíces**
 
-![314DD59C-0897-4AD6-B1BA-5189DE33D50A.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bdb29b7c-0f97-4f64-8228-c948e813ae1f/314DD59C-0897-4AD6-B1BA-5189DE33D50A.jpeg)
 
 Veamos como han cambiado las recompensas y los incentivos monetarios a los mineros a través del tiempo y observamos que existen épocas más rentables que otras.
 
-Fuente: [https://www.blockchain.com/charts/miners-revenue](https://www.blockchain.com/charts/miners-revenue)
+Fuente: https://www.blockchain.com/charts/miners-revenue
 
-![F4B73FC6-0452-4D75-AFDE-D8BF7C133B40.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/965beb83-b182-4ef5-b4dc-80cef826eaf0/F4B73FC6-0452-4D75-AFDE-D8BF7C133B40.jpeg)
+
 
 - *→ El incentivo de los mineros aún permanece, independientemente de las recompensas más pequeñas, ya que el valor de Bitcoin aumenta a largo plazo en el proceso.*
 
@@ -211,8 +202,7 @@ Fuente: [https://www.blockchain.com/charts/miners-revenue](https://www.blockchai
 - Entre más alta la dificultad, más poder de cómputo para minar la misma cantidad de bloques,
     - lo que hace que la red sea más segura contra los ataques.
         
-        ![EBD14DB7-B054-4265-8729-397D53C89BFF.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/544b2a19-2536-4a94-9309-3dc3daca5d2d/EBD14DB7-B054-4265-8729-397D53C89BFF.png)
-        
+      
 
 ### De qué o de quién me tengo que cuidar?
 
@@ -234,7 +224,7 @@ Aunque Bitcoin puede ofrecer mucha mayor protección que el sistema financiero t
 
 Los ataques físicos que se conocen a Bitcoin: 
 
-[https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md](https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md)
+https://github.com/jlopp/physical-bitcoin-attacks/blob/master/README.md
 
 - Ninguno de estos ataques ha podido lograr interrumpir la red de Bitcoin.
 - Si las claves privadas permanecen en un lugar seguro,
@@ -251,15 +241,12 @@ Los ataques físicos que se conocen a Bitcoin:
         - Puede fácilmente manipular, alterar o desencadenar la cadena en su beneficio,
             - robando dinero a través del doble gasto y/o censurando transacciones.
             
-            ![5EBFE095-24EF-414F-A803-4412180E0363.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74c8d651-d4f3-4ae4-afca-0aa0eca91920/5EBFE095-24EF-414F-A803-4412180E0363.png)
-            
+         
     - Este tipo de ataque nunca ha sucedido con Bitcoin.
 
-![99F3EC52-832D-4901-AD0B-6CDBBDE9057B.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fab4a962-6870-45a7-a9cb-9d3fff3162ee/99F3EC52-832D-4901-AD0B-6CDBBDE9057B.png)
 
 Más detalles sobre vulnerabilidades de Bitcoin:
 
-[https://github.com/JWWeatherman/bitcoin_security_threat_model](https://github.com/JWWeatherman/bitcoin_security_threat_model)
-
-[Weaknesses](https://en.bitcoin.it/wiki/Weaknesses)
+https://github.com/JWWeatherman/bitcoin_security_threat_model
+Weaknesses https://en.bitcoin.it/wiki/Weaknesses
 
