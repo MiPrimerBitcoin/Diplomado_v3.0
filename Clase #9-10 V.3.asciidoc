@@ -15,9 +15,6 @@ Para aumentar las ganancias,
 - Los ASIC actuales son 100 mil millones de veces más veloces que los CPU’s del 2009.
 - La energía consumida por Bitcoin representa un 0.16% de la energía a nivel mundial.
 
-![28017D39-588D-4158-ADFC-D8C81733C4F3.webp](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3704ffe4-f61f-4d9f-9dc2-a55b9064284b/28017D39-588D-4158-ADFC-D8C81733C4F3.webp)
-
-![14ADD9AD-6891-48D8-A17D-C005C47EC1A1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/22fba942-cd74-4c79-ab84-6b994e2ddccc/14ADD9AD-6891-48D8-A17D-C005C47EC1A1.png)
 
 ### Ha evolucionado Bitcoin?
 
@@ -36,11 +33,11 @@ Para entender mejor esto, aquí hay algunos términos importantes que debemos de
 3. **Capitalización de mercado**: El valor de mercado total del suministro circulante de Bitcoin reflejado en monedas fiat (dólares). Esto se estima multiplicando el precio actual por la oferta circulante.
     1. **Capitalización de mercado = precio actual x oferta circulante.**
 
-Podemos ir a *m[arketcap](https://coinmarketcap.com/currencies/bitcoin/) y* calcular la capitalización de mercado actual.
+Podemos ir a *Marketcap* https://coinmarketcap.com/currencies/bitcoin/ y calcular la capitalización de mercado actual.
 
 El siguiente gráfico muestra el precio de Bitcoin en los últimos 5 años. Esta es una manera fácil de visualizar qué tan sensible o volátil es el precio. Usando el eje X para el tiempo, ¿qué eventos mundiales importantes podrían relacionarse con los cambios de precios? ****
 
-[https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR](https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR)
+https://lh4.googleusercontent.com/DJuC6h2XxzgGwKc53R_hh82-syrjzOQJKMcxNkb85foZxqoC5pPYaHtEUfdn_1pWZhh-R4nP1aO3pcMjKxJ2BNTouQ132PAQ53lMuVN7DATjt9fRfB4mKT75qcmj-IXrQxDyeIvR
 
 **Entonces, ¿qué factores determinan su precio? ¿Cómo se involucra la minería? ¿Cuándo afecta el halving al precio?**
 
@@ -53,7 +50,6 @@ Hay factores simples y complejos que afectan significativamente el precio de bit
 - **Costos de minería**: Como sabemos, los mineros son los responsables de agregar más y más bitcoin al suministro total. Debido a los costos de electricidad, los mineros generalmente se ven obligados a vender entre el 40 % y 60% de los bitcoin extraídos para cubrir las facturas y los gastos de hardware.
 - **Burbujas de mercado**: en los últimos años, los compradores de bitcoins son cada vez más diversos y sus hábitos de compra y ahorro varían. El tamaño de su participación en Bitcoin y su comportamiento hacia él puede cambiar el precio general de Bitcoin.
 
-![D9CF762B-FDC1-417F-8981-5B67DABC6421.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4f2bce5-12aa-4204-8263-869c5676bd1d/D9CF762B-FDC1-417F-8981-5B67DABC6421.png)
 
 **Factores a largo plazo:**
 
@@ -63,7 +59,7 @@ Hay factores simples y complejos que afectan significativamente el precio de bit
 
 El siguiente gráfico se llama “gráfico arcoíris” y usa una escala logarítmica para visualizar el comportamiento del precio. El arcoíris, con la división de colores, muestra cuándo la moneda está sobrevendida (zonas azul y verde) o sobrecomprada (zonas naranja, roja y morada). Podemos obtener con este gráfico el momento adecuado para comprar o vender bitcoin. Cuando bitcoin está en las zonas azul/verde puede ser el momento apropiado para comprarlo. 
 
-[https://lh5.googleusercontent.com/Ffya4yg3OoApiYHNMMz2b0Hv6F3Hgwyw7B-h0ZMSg_O1GA2Z4wmlhLNjsEffbQECWu0OYSv5yKUT2xsPi2WRI2o_sReRaqXBmByFM0GKPr2uHi7xevcdro0BOnqaf4yXGsdWXNud](https://lh5.googleusercontent.com/Ffya4yg3OoApiYHNMMz2b0Hv6F3Hgwyw7B-h0ZMSg_O1GA2Z4wmlhLNjsEffbQECWu0OYSv5yKUT2xsPi2WRI2o_sReRaqXBmByFM0GKPr2uHi7xevcdro0BOnqaf4yXGsdWXNud)
+https://lh5.googleusercontent.com/Ffya4yg3OoApiYHNMMz2b0Hv6F3Hgwyw7B-h0ZMSg_O1GA2Z4wmlhLNjsEffbQECWu0OYSv5yKUT2xsPi2WRI2o_sReRaqXBmByFM0GKPr2uHi7xevcdro0BOnqaf4yXGsdWXNud
 
 # **Innovación**
 
@@ -86,12 +82,10 @@ Software original creado por Satoshi Nakamoto-
     - conocer el historial de transacciones y los propietarios de cada bitcoin.
     
 
-![275409F5-D1C2-48C1-8A24-D81D187782A8.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/899c324a-befe-4441-bf3e-126964b8cae2/275409F5-D1C2-48C1-8A24-D81D187782A8.jpeg)
 
-<aside>
 💡 **Código fuente abierto:** Cualquier persona puede ver, **proponer cambios**, **modificar** y distribuir como mejor le parezca. Es comparable a ir a un restaurante y tener acceso a las recetas de tus comidas favoritas (el código)… pero luego puedes hacerlas y agregar o quitar cualquier ingrediente que desees y perfeccionarlas.
 
-</aside>
+
 
 - Decenas de expertos en software y criptografía, trabajan en su mantenimiento y mejora.
 - Quien propone una actualización en el software,
@@ -125,11 +119,9 @@ Bitcoin ha mejorado a través del consenso, a través de Propuestas de Mejoras d
 - Permitirá la emisión de monedas estables y otros activos en la red Lightning.
 - Se podrá intercambiar cualquier divisa por otra instantáneamente, prácticamente gratis.
 
-![750B26CE-71E7-471E-8CD2-B1B659B0C91A.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2972962b-1385-4174-bfc9-476d0862832b/750B26CE-71E7-471E-8CD2-B1B659B0C91A.png)
 
 ### Bitcoin y el futuro de El Salvador
 
-![52EBE19E-9936-4541-B11C-C9E72B4586F1.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40fd826b-360b-4817-b8f3-41e92ddfe059/52EBE19E-9936-4541-B11C-C9E72B4586F1.jpeg)
 
 - La originalidad y las posibilidades de Bitcoin ha captado la atención de:
     - el mundo de la inversión
@@ -175,10 +167,10 @@ Bitcoin ha mejorado a través del consenso, a través de Propuestas de Mejoras d
         - ¿Qué imagina que podría pasar en El Salvador en los próximos diez años?
         - ¿Cree que los Salvadoreños se familiarizarán más con Bitcoin y lo encontrarán una tecnología esencial?
 
-> "Tanto si crees que puedes hacerlo, como si no, en los dos casos tienes razón"  Henry Ford
-> 
+"Tanto si crees que puedes hacerlo, como si no, en los dos casos tienes razón"  Henry Ford
 
-# **Clase #10**
+
+# Clase #*10*
 
 ### Entrega de Proyecto Final y Evaluaciones
 
@@ -193,7 +185,7 @@ Escriba un ensayo de 1 a 2 páginas y asegúrese de cubrir los siguientes puntos
 
 ## Actividad Final (Simulador de Bitcoin)
 
-[Bitcoin Blockchain Simulator: An interactive learning tool](https://www.bitcoinsimulator.tk/)
+Bitcoin Blockchain Simulator: An interactive learning tool https://www.bitcoinsimulator.tk/
 
 Crear una nueva billetera.
 
@@ -222,7 +214,7 @@ Lo que puedes hacer ahora:
 
 Cuanto más entiendas cómo funciona Bitcoin, mejor.
 
-[Bitcoin Blockchain Simulator: An interactive learning tool](https://www.bitcoinsimulator.tk/)
+Bitcoin Blockchain Simulator: An interactive learning tool https://www.bitcoinsimulator.tk/
 
 Crear una nueva billetera.
 
